@@ -7,10 +7,6 @@ from colorama import Fore, init
 # Initialize colorama
 init(autoreset=True)
 
-def clear_screen():
-    """Clear the console screen."""
-    os.system('cls' if os.name == 'nt' else 'clear')
-
 def main():
     # Print welcome message in blue to purple
     print(Fore.BLUE + "Hey WELCOME TO DARK ZONE")
@@ -34,7 +30,7 @@ def main():
 ⣿⣿⣿⣿⣿⣿⡿⠟⠛⠄⠄⠄⠄⠄⠙⣛⣿⣿⣵⣿⡿⢹⡟⣿⣿⣿⣿⣿
 """)
         time.sleep(0.1)
-        clear_screen()
+        os.system('cls' if os.name == 'nt' else 'clear')
 
         # Print text2
         print(Fore.GREEN + """
@@ -51,7 +47,7 @@ def main():
 ⠀⠀⠀⠀⠀⠀⢀⣠⣤⣻⣻⣻⣻⣦⠤⠀⠀⠊⠀⢀⡆⢠⠀⠀⠀⠀⠀
 """)
         time.sleep(0.1)
-        clear_screen()
+        os.system('cls' if os.name == 'nt' else 'clear')
 
     # Print message after 4 seconds, one character at a time
     for char in "Why you Tried to change the script? You know it don't work when you change things brother.\n":
