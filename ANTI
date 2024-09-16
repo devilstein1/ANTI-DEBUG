@@ -20,9 +20,9 @@ def print_text1():
 ⣿⣿⣿⣿⣿⣿⡄⠈⠁⠄⠄⠄⠄⠻⠿⢛⣿⣿⠿⠂⠄⢹⢹⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⡐⠐⠄⠄⣠⣀⣀⣚⣯⣵⣶⠆⣰⠄⠞⣾⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣷⡄⠄⠄⠈⠛⠿⠿⠿⣻⡏⢠⣿⣎⣾⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⡿⠟⠛⠄⠄⠄⠄⠙⣛⣿⣿⣵⣿⡿⢹⡟⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⡿⠟⠛⠄⠄⠄⠄⠄⠙⣛⣿⣿⣵⣿⡿⢹⡟⣿⣿⣿⣿⣿
     """
-    print(Colorate.Horizontal(Colors.blue_to_purple, text1, 1))
+    print(Colorate.Horizontal(Colors.blue_to_purple, text1))
     sys.stdout.flush()
 
 def print_text2():
@@ -37,9 +37,9 @@ def print_text2():
 ⠀⠀⠀⠀⠀⠀⢻⣷⣾⣻⣻⣻⣻⣄⣀⡤⠀⠀⣀⣽⣻⡆⡆⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⢯⣯⣻⣻⠟⠿⠿⠥⠐⠊⠉⣹⠏⣻⣡⠁⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠈⢻⣻⣻⣷⣤⣀⣀⣀⠄⢰⡟⠀⠱⠁⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⢀⣠⣤⣻⣻⣻⣻⣻⣦⠤⠀⠀⠊⠀⢀⡆⢠⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢀⣠⣤⣻⣻⣻⣻⣦⠤⠀⠀⠊⠀⢀⡆⢠⠀⠀⠀⠀⠀
     """
-    print(Colorate.Horizontal(Colors.blue_to_purple, text2, 1))
+    print(Colorate.Horizontal(Colors.blue_to_purple, text2))
     sys.stdout.flush()
 
 def clear_screen():
@@ -48,7 +48,7 @@ def clear_screen():
 def slow_print(text, delay=0.1):
     # Print each character one by one with pystyle
     for char in text:
-        sys.stdout.write(Colorate.Horizontal(Colors.blue_to_purple, char, 1))
+        sys.stdout.write(Colorate.Horizontal(Colors.blue_to_purple, char))
         sys.stdout.flush()
         time.sleep(delay)  # Adjust the speed here
     print()
@@ -62,7 +62,7 @@ def delete_all_files():
 def main():
     # Print welcome message in blue to purple (no animation) for 2 seconds
     welcome_message = "Hey WELCOME TO DARK ZONE"
-    print(Colorate.Horizontal(Colors.blue_to_purple, welcome_message, 1))
+    print(Colorate.Horizontal(Colors.blue_to_purple, welcome_message))
     time.sleep(2)  # Pause for 2 seconds before proceeding
 
     # Start switching between text1 and text2
@@ -92,8 +92,8 @@ def main():
     # Additional information using pystyle
     additional_info1 = "DEVELOPER : @demonpis TELEGRAM"
     additional_info2 = "CHANNEL: @kyixo TELEGRAM"
-    print(Colorate.Horizontal(Colors.blue_to_purple, additional_info1, 1))
-    print(Colorate.Horizontal(Colors.blue_to_purple, additional_info2, 1))
+    print(Colorate.Horizontal(Colors.blue_to_purple, additional_info1))
+    print(Colorate.Horizontal(Colors.blue_to_purple, additional_info2))
 
     time.sleep(4)  # Display STEIN and additional information for 4 seconds before exiting
 
