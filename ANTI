@@ -86,7 +86,7 @@ def setvalue95():
 
 def handlestatus21():
     data = {'key': 'value'}
-
+print("STEIN")
 def updatestatus62():
     try:
         z = x / 0
