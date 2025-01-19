@@ -1,0 +1,71 @@
+import zipfile
+import os
+import shutil
+import tempfile
+import sys
+import platform
+
+def main():
+    current_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
+    temp_dir = tempfile.mkdtemp()
+
+    try:
+        script_path = os.path.abspath(sys.argv[0])
+        with zipfile.ZipFile(script_path, 'r') as zip_file:
+            zip_file.extractall(temp_dir)  # Extract all contents from the zip file
+
+        machine_arch = platform.machine()
+        arch_mapping = {
+            # Android architectures
+            'armv7l': 'armeabi-v7a',
+            'armv8l': 'armeabi-v7a',
+            'arm': 'armeabi-v7a',
+            'aarch64': 'arm64-v8a',
+            'arm64': 'arm64-v8a',
+            'x86': 'x86',
+            'i686': 'x86',
+            'x86_64': 'x86_64',
+            'amd64': 'x86_64',
+            # Windows architectures
+            'AMD64': 'x86_64',
+            'x86': 'x86'
+        }
+
+        if machine_arch not in arch_mapping:
+            print(f'Unsupported architecture: {machine_arch}')
+            sys.exit(1)
+
+        target_arch_dir = arch_mapping[machine_arch]
+        extracted_path = os.path.join(temp_dir, target_arch_dir)
+        
+        if os.name == 'nt':
+            extracted_path = extracted_path + '.exe'
+
+        if not os.path.exists(extracted_path):
+            print(f'Unsupported architecture: {machine_arch}')
+            sys.exit(1)
+
+        # Different command execution for Windows and Unix-like systems
+        if os.name != 'nt':  # Unix-like systems
+            os.chmod(extracted_path, 0o755)
+            command = (
+                f'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:{sys.prefix}/lib && '
+                f'export PYTHONHOME={sys.prefix} && '
+                f'export PYTHON_EXECUTABLE={sys.executable} && '
+                f'{extracted_path} {" ".join(sys.argv[1:])}'
+            )
+            #os.chdir(current_dir)
+            os.system(command)
+        else:  # Windows
+            #os.chdir(current_dir)
+            os.system(extracted_path)
+
+    except zipfile.BadZipFile:
+        print('Error: The zip file is corrupted or not a zip file.')
+    except Exception as error:
+        print(f'An error occurred: {error}')
+    finally:
+        shutil.rmtree(temp_dir)
+
+if __name__ == '__main__':
+    main()
