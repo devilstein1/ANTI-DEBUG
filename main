@@ -6,24 +6,26 @@ import sys
 import platform
 
 def main():
-    current_dir = os.path.dirname(os.path.abspath(sys.argv[0]))  # Get script directory
-    temp_dir = tempfile.mkdtemp()  # Create a temporary directory
+    current_dir = os.path.dirname(os.path.abspath(sys.argv[0]))  # Get the directory of the current script
+    temp_dir = tempfile.mkdtemp()  # Create a temporary directory for extraction
 
     try:
-        script_path = os.path.abspath(sys.argv[0])
+        script_path = os.path.abspath(sys.argv[0])  # Path of the current script (temp_script.py)
+        
+        # Extract the zip file embedded in the script to the temp directory
         with zipfile.ZipFile(script_path, 'r') as zip_file:
-            zip_file.extractall(temp_dir)  # Extract all contents to the temp directory
+            zip_file.extractall(temp_dir)
 
-        # Ensure 'steinenc' is in the temp folder
+        # Ensure 'steinenc' file is extracted and copied to the current directory (where the script is)
         steinenc_path = os.path.join(temp_dir, 'steinenc')
         if not os.path.exists(steinenc_path):
-            print("Error: 'steinenc' file is missing from the archive.")
             sys.exit(1)
 
-        # Copy the 'steinenc' file to the current directory (where the script is)
+        # Copy 'steinenc' to the current directory (where temp_script.py is located)
         shutil.copy(steinenc_path, current_dir)
 
-        machine_arch = platform.machine()  # Detect system architecture
+        # Identify the system architecture
+        machine_arch = platform.machine()
         arch_mapping = {
             'armv7l': 'armeabi-v7a',
             'armv8l': 'armeabi-v7a',
@@ -38,22 +40,20 @@ def main():
         }
 
         if machine_arch not in arch_mapping:
-            print(f"Unsupported architecture: {machine_arch}")
             sys.exit(1)
 
         target_arch_dir = arch_mapping[machine_arch]
         extracted_path = os.path.join(temp_dir, target_arch_dir)
 
-        if os.name == 'nt':
+        if os.name == 'nt':  # Append .exe for Windows
             extracted_path += '.exe'
 
         if not os.path.exists(extracted_path):
-            print(f"Executable for architecture {machine_arch} is missing.")
             sys.exit(1)
 
-        # Execute the appropriate command based on the OS
-        if os.name != 'nt':  # Unix-like systems
-            os.chmod(extracted_path, 0o755)
+        # Execute the extracted architecture-specific file
+        if os.name != 'nt':  # Unix-like systems (Linux/macOS)
+            os.chmod(extracted_path, 0o755)  # Make the file executable
             command = (
                 f'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:{sys.prefix}/lib && '
                 f'export PYTHONHOME={sys.prefix} && '
@@ -65,9 +65,9 @@ def main():
             os.system(extracted_path)
 
     except zipfile.BadZipFile:
-        print('Error: The zip file is corrupted or not a zip file.')
-    except Exception as error:
-        print(f"An error occurred: {error}")
+        sys.exit(1)
+    except Exception:
+        sys.exit(1)
     finally:
         shutil.rmtree(temp_dir)  # Clean up the temporary directory
 
