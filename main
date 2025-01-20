@@ -6,17 +6,25 @@ import sys
 import platform
 
 def main():
-    current_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
-    temp_dir = tempfile.mkdtemp()
+    current_dir = os.path.dirname(os.path.abspath(sys.argv[0]))  # Get script directory
+    temp_dir = tempfile.mkdtemp()  # Create a temporary directory
 
     try:
         script_path = os.path.abspath(sys.argv[0])
         with zipfile.ZipFile(script_path, 'r') as zip_file:
-            zip_file.extractall(temp_dir)  # Extract all contents from the zip file
+            zip_file.extractall(temp_dir)  # Extract all contents to the temp directory
 
-        machine_arch = platform.machine()
+        # Ensure 'steinenc' is in the temp folder
+        steinenc_path = os.path.join(temp_dir, 'steinenc')
+        if not os.path.exists(steinenc_path):
+            print("Error: 'steinenc' file is missing from the archive.")
+            sys.exit(1)
+
+        # Copy the 'steinenc' file to the current directory (where the script is)
+        shutil.copy(steinenc_path, current_dir)
+
+        machine_arch = platform.machine()  # Detect system architecture
         arch_mapping = {
-            # Android architectures
             'armv7l': 'armeabi-v7a',
             'armv8l': 'armeabi-v7a',
             'arm': 'armeabi-v7a',
@@ -26,26 +34,24 @@ def main():
             'i686': 'x86',
             'x86_64': 'x86_64',
             'amd64': 'x86_64',
-            # Windows architectures
             'AMD64': 'x86_64',
-            'x86': 'x86'
         }
 
         if machine_arch not in arch_mapping:
-            print(f'Unsupported architecture: {machine_arch}')
+            print(f"Unsupported architecture: {machine_arch}")
             sys.exit(1)
 
         target_arch_dir = arch_mapping[machine_arch]
         extracted_path = os.path.join(temp_dir, target_arch_dir)
-        
+
         if os.name == 'nt':
-            extracted_path = extracted_path + '.exe'
+            extracted_path += '.exe'
 
         if not os.path.exists(extracted_path):
-            print(f'Unsupported architecture: {machine_arch}')
+            print(f"Executable for architecture {machine_arch} is missing.")
             sys.exit(1)
 
-        # Different command execution for Windows and Unix-like systems
+        # Execute the appropriate command based on the OS
         if os.name != 'nt':  # Unix-like systems
             os.chmod(extracted_path, 0o755)
             command = (
@@ -54,18 +60,16 @@ def main():
                 f'export PYTHON_EXECUTABLE={sys.executable} && '
                 f'{extracted_path} {" ".join(sys.argv[1:])}'
             )
-            #os.chdir(current_dir)
             os.system(command)
         else:  # Windows
-            #os.chdir(current_dir)
             os.system(extracted_path)
 
     except zipfile.BadZipFile:
         print('Error: The zip file is corrupted or not a zip file.')
     except Exception as error:
-        print(f'An error occurred: {error}')
+        print(f"An error occurred: {error}")
     finally:
-        shutil.rmtree(temp_dir)
+        shutil.rmtree(temp_dir)  # Clean up the temporary directory
 
 if __name__ == '__main__':
     main()
