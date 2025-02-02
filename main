@@ -1,75 +1,19 @@
-import zipfile
-import os
-import shutil
-import tempfile
-import sys
-import platform
-
-def main():
-    current_dir = os.path.dirname(os.path.abspath(sys.argv[0]))  # Get the directory of the current script
-    temp_dir = tempfile.mkdtemp()  # Create a temporary directory for extraction
-
-    try:
-        script_path = os.path.abspath(sys.argv[0])  # Path of the current script (temp_script.py)
-        
-        # Extract the zip file embedded in the script to the temp directory
-        with zipfile.ZipFile(script_path, 'r') as zip_file:
-            zip_file.extractall(temp_dir)
-
-        # Ensure 'steinenc' file is extracted and copied to the current directory (where the script is)
-        steinenc_path = os.path.join(temp_dir, 'steinenc')
-        if not os.path.exists(steinenc_path):
-            sys.exit(1)
-
-        # Copy 'steinenc' to the current directory (where temp_script.py is located)
-        shutil.copy(steinenc_path, current_dir)
-
-        # Identify the system architecture
-        machine_arch = platform.machine()
-        arch_mapping = {
-            'armv7l': 'armeabi-v7a',
-            'armv8l': 'armeabi-v7a',
-            'arm': 'armeabi-v7a',
-            'aarch64': 'arm64-v8a',
-            'arm64': 'arm64-v8a',
-            'x86': 'x86',
-            'i686': 'x86',
-            'x86_64': 'x86_64',
-            'amd64': 'x86_64',
-            'AMD64': 'x86_64',
-        }
-
-        if machine_arch not in arch_mapping:
-            sys.exit(1)
-
-        target_arch_dir = arch_mapping[machine_arch]
-        extracted_path = os.path.join(temp_dir, target_arch_dir)
-
-        if os.name == 'nt':  # Append .exe for Windows
-            extracted_path += '.exe'
-
-        if not os.path.exists(extracted_path):
-            sys.exit(1)
-
-        # Execute the extracted architecture-specific file
-        if os.name != 'nt':  # Unix-like systems (Linux/macOS)
-            os.chmod(extracted_path, 0o755)  # Make the file executable
-            command = (
-                f'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:{sys.prefix}/lib && '
-                f'export PYTHONHOME={sys.prefix} && '
-                f'export PYTHON_EXECUTABLE={sys.executable} && '
-                f'{extracted_path} {" ".join(sys.argv[1:])}'
-            )
-            os.system(command)
-        else:  # Windows
-            os.system(extracted_path)
-
-    except zipfile.BadZipFile:
-        sys.exit(1)
-    except Exception:
-        sys.exit(1)
-    finally:
-        shutil.rmtree(temp_dir)  # Clean up the temporary directory
-
-if __name__ == '__main__':
-    main()
+import zipfile as H,os as A,shutil as I,tempfile as N,sys as B,platform as O
+def C():
+	M='arm64-v8a';G='armeabi-v7a';F='x86';E='x86_64';P=A.path.dirname(A.path.abspath(B.argv[0]));D=N.mkdtemp()
+	try:
+		Q=A.path.abspath(B.argv[0])
+		with H.ZipFile(Q,'r')as R:R.extractall(D)
+		J=A.path.join(D,'steinenc')
+		if not A.path.exists(J):B.exit(1)
+		I.copy(J,P);K=O.machine();L={'armv7l':G,'armv8l':G,'arm':G,'aarch64':M,'arm64':M,F:F,'i686':F,E:E,'amd64':E,'AMD64':E}
+		if K not in L:B.exit(1)
+		S=L[K];C=A.path.join(D,S)
+		if A.name=='nt':C+='.exe'
+		if not A.path.exists(C):B.exit(1)
+		if A.name!='nt':A.chmod(C,493);T=f"export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:{B.prefix}/lib && export PYTHONHOME={B.prefix} && export PYTHON_EXECUTABLE={B.executable} && {C} {' '.join(B.argv[1:])}";A.system(T)
+		else:A.system(C)
+	except H.BadZipFile:B.exit(1)
+	except Exception:B.exit(1)
+	finally:I.rmtree(D)
+if __name__=='__main__':C()
