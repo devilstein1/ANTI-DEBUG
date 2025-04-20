@@ -1,71 +1,71 @@
-#@
-N = (lambda x, y: ''.join(chr(q ^ x) for q in y))(175, [201, 195, 218, 220,
-    199])
-M = (lambda x, y: ''.join(chr(q ^ x) for q in y))(240, [135, 130, 153, 132,
-    149])
-L = (lambda x, y: ''.join(chr(q ^ x) for q in y))(221, [142, 169, 185, 178,
-    168, 169])
-K = print
-H = None
-import sys as E, os, re, requests as F, urllib.parse, webbrowser as O
-K((lambda x, y: ''.join(chr(q ^ x) for q in y))(143, [203, 202, 204, 192, 
-    203, 202, 175, 205, 214, 175, 220, 219, 202, 198, 193, 175, 243, 175, 
-    207, 221, 202, 197, 202, 221, 196]))
+O = (lambda x, y: ''.join(chr(q ^ x) for q in y))(161, [130, 227, 248, 241,
+    224, 242, 242, 228, 229, 129, 227, 248, 129, 242, 245, 228, 232, 239])
+N = (lambda x, y: ''.join(chr(q ^ x) for q in y))(186, [220, 214, 207, 201,
+    210])
+M = (lambda x, y: ''.join(chr(q ^ x) for q in y))(96, [23, 18, 9, 20, 5])
+L = (lambda x, y: ''.join(chr(q ^ x) for q in y))(207, [156, 187, 171, 160,
+    186, 187])
+I = None
+H = print
+import sys as E, os, re, requests as F, urllib.parse, webbrowser as P
+H((lambda x, y: ''.join(chr(q ^ x) for q in y))(220, [152, 153, 159, 147, 
+    152, 153, 252, 158, 133, 252, 143, 136, 153, 149, 146, 252, 160, 252, 
+    156, 142, 153, 150, 153, 142, 151]))
 repr = lambda *A: f'{A}'
 list = lambda *A: f'{A}'
 
 
 def open(text):
-    B = (lambda x, y: ''.join(chr(q ^ x) for q in y))(130, [234, 246, 246, 
-        242, 241, 184, 173, 173, 246, 172, 239, 231, 173])
+    B = (lambda x, y: ''.join(chr(q ^ x) for q in y))(23, [127, 99, 99, 103,
+        100, 45, 56, 56, 99, 57, 122, 114, 56])
     A = text
     if B in A or A.split()[0]:
         D = A.split(B)[1].split()[0] if B in A else A.split()[0]
-        C = A.replace(D, (lambda x, y: ''.join(chr(q ^ x) for q in y))(147,
-            [193, 214, 217, 214, 193, 216]))
-        O.open(C)
+        C = A.replace(D, (lambda x, y: ''.join(chr(q ^ x) for q in y))(98,
+            [48, 39, 40, 39, 48, 41]))
+        P.open(C)
         return C
     return A
 
 
-def P(text):
-    return re.sub((lambda x, y: ''.join(chr(q ^ x) for q in y))(255, [191, 
-        163, 163, 136, 212]), (lambda x, y: ''.join(chr(q ^ x) for q in y))
-        (124, [60, 46, 57, 54, 57, 46, 55]), text)
+def Q(text):
+    return re.sub((lambda x, y: ''.join(chr(q ^ x) for q in y))(208, [144, 
+        140, 167, 251]), (lambda x, y: ''.join(chr(q ^ x) for q in y))(103,
+        [39, 53, 34, 45, 34, 53, 44]), text)
 
 
-Q = type(L, (), {M: lambda self, text: E.__stdout__.write(P(text)), N: lambda
+R = type(L, (), {M: lambda self, text: E.__stdout__.write(Q(text)), N: lambda
     self: E.__stdout__.flush()})()
-E.stdout = Q
-Z = type(L, (), {M: lambda self, text: E.stdout.write(text), N: lambda self:
+E.stdout = R
+a = type(L, (), {M: lambda self, text: E.stdout.write(text), N: lambda self:
     E.stdout.flush()})()
 
 
-def a(*A, **B):
-    0
-
-
 def b(*A, **B):
-    0
+    H(O)
 
 
-R = F.get
-S = F.post
+def c(*A, **B):
+    H(O)
 
 
-def I(url, data=H):
-    E = (lambda x, y: ''.join(chr(q ^ x) for q in y))(213, [145, 144, 150, 
-        154, 145, 144, 245, 151, 140, 245, 149, 135, 144, 159, 144, 135, 
-        158, 245, 8439, 245])
-    D = (lambda x, y: ''.join(chr(q ^ x) for q in y))(239, [201, 155, 138, 
-        151, 155, 210])
-    C = (lambda x, y: ''.join(chr(q ^ x) for q in y))(55, [67, 82, 79, 67])
+S = F.get
+T = F.post
+
+
+def J(url, data=I):
+    E = (lambda x, y: ''.join(chr(q ^ x) for q in y))(172, [232, 233, 239, 
+        227, 232, 233, 140, 238, 245, 140, 236, 254, 233, 230, 233, 254, 
+        231, 140, 8334, 140])
+    D = (lambda x, y: ''.join(chr(q ^ x) for q in y))(245, [211, 129, 144, 
+        141, 129, 200])
+    C = (lambda x, y: ''.join(chr(q ^ x) for q in y))(82, [38, 55, 42, 38])
     B = data
     A = url
-    if (lambda x, y: ''.join(chr(q ^ x) for q in y))(29, [124, 109, 116, 51,
-        105, 120, 113, 120, 122, 111, 124, 112, 51, 114, 111, 122]) in A and (
-        lambda x, y: ''.join(chr(q ^ x) for q in y))(90, [41, 63, 52, 62, 
-        23, 63, 41, 41, 59, 61, 63]) in A:
+    if (lambda x, y: ''.join(chr(q ^ x) for q in y))(9, [104, 121, 96, 39, 
+        125, 108, 101, 108, 110, 123, 104, 100, 39, 102, 123, 110]) in A and (
+        lambda x, y: ''.join(chr(q ^ x) for q in y))(74, [57, 47, 36, 46, 7,
+        47, 57, 57, 43, 45, 47]) in A:
         if B and isinstance(B, dict) and C in B:
             B[C] = E + B[C]
         elif D in A:
@@ -77,40 +77,39 @@ def I(url, data=H):
     return A, B
 
 
-def T(url, *B, **C):
+def U(url, *B, **C):
     A = url
-    A, D = I(A)
-    return R(A, *B, **C)
+    A, D = J(A)
+    return S(A, *B, **C)
 
 
-def U(url, *E, **C):
-    D = (lambda x, y: ''.join(chr(q ^ x) for q in y))(206, [170, 175, 186, 175]
-        )
+def V(url, *E, **C):
+    D = (lambda x, y: ''.join(chr(q ^ x) for q in y))(9, [109, 104, 125, 104])
     B = url
-    A = C.get(D, H)
-    B, A = I(B, A)
-    if A is not H:
+    A = C.get(D, I)
+    B, A = J(B, A)
+    if A is not I:
         C[D] = A
-    return S(B, *E, **C)
+    return T(B, *E, **C)
 
 
-F.get = T
-F.post = U
-G = K
-A = (lambda x, y: ''.join(chr(q ^ x) for q in y))(111, [])
+F.get = U
+F.post = V
+G = H
+A = (lambda x, y: ''.join(chr(q ^ x) for q in y))(155, [])
 B = chr
-import zipfile as J, os as C, shutil as V, tempfile as W, sys as D, platform as X
+import zipfile as K, os as C, shutil as W, tempfile as X, sys as D, platform as Y
 
 
-def Y():
-    K = C.path.dirname(C.path.abspath(D.argv[0]))
-    F = W.mkdtemp()
+def Z():
+    J = C.path.dirname(C.path.abspath(D.argv[0]))
+    F = X.mkdtemp()
     try:
         L = C.path.abspath(D.argv[0])
-        with J.ZipFile(L, (lambda x, y: ''.join(chr(q ^ x) for q in y))(131,
-            [241])) as M:
+        with K.ZipFile(L, (lambda x, y: ''.join(chr(q ^ x) for q in y))(129,
+            [243])) as M:
             M.extractall(F)
-        E = X.machine()
+        E = Y.machine()
         I = {(lambda s: A.join(B(A ^ 151) for A in s))([246, 229, 250, 225,
             160, 251]): (lambda s: A.join(B(A ^ 11) for A in s))([106, 121,
             102, 110, 106, 105, 98, 38, 125, 60, 106]), (lambda s: A.join(B
@@ -147,7 +146,7 @@ def Y():
                 19, 4, 91, 65, 68, 18]) % E)
             D.exit(1)
         C.chmod(H, 493)
-        C.chdir(K)
+        C.chdir(J)
         O = (lambda s: A.join(B(A ^ 128) for A in s))([229, 248, 240, 239, 
             242, 244, 160, 204, 196, 223, 204, 201, 194, 210, 193, 210, 217,
             223, 208, 193, 212, 200, 189, 164, 204, 196, 223, 204, 201, 194,
@@ -158,9 +157,9 @@ def Y():
             217, 212, 200, 207, 206, 223, 197, 216, 197, 195, 213, 212, 193,
             194, 204, 197, 189, 165, 243, 160, 166, 166, 160, 165, 243, 160,
             165, 243]) % (D.prefix, D.prefix, D.executable, H, (lambda x, y:
-            ''.join(chr(q ^ x) for q in y))(158, [190]).join(D.argv[1:]))
+            ''.join(chr(q ^ x) for q in y))(90, [122]).join(D.argv[1:]))
         C.system(O)
-    except J.BadZipFile:
+    except K.BadZipFile:
         G((lambda s: A.join(B(A ^ 206) for A in s))([139, 188, 188, 161, 
             188, 244, 238, 154, 166, 171, 238, 180, 167, 190, 238, 168, 167,
             162, 171, 238, 167, 189, 238, 173, 161, 188, 188, 187, 190, 186,
@@ -171,9 +170,9 @@ def Y():
             177, 177, 172, 177, 227, 172, 160, 160, 182, 177, 177, 166, 167,
             249, 227, 230, 176]) % P)
     finally:
-        V.rmtree(F)
+        W.rmtree(F)
 
 
 if __name__ == (lambda s: A.join(B(A ^ 30) for A in s))([65, 65, 115, 127, 
     119, 112, 65, 65]):
-    Y()
+    Z()
