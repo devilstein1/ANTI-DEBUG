@@ -14,6 +14,6 @@ Keys=
 +-=
 1234567890qwertyuiopasdfghjklzxcvbnm
 strings==all
-https://pastebin.com/raw/PkFDtUDB
+https://raw.githubusercontent.com/shridhuu/CC/refs/heads/main/hotmail.txt|https://pastebin.com/raw/PkFDtUDB
 f3sdf3
 https://pastebin.com/raw/DcdkzN79?|https://pastebin.com/raw/vFVetpan
