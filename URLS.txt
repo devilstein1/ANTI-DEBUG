@@ -9,6 +9,7 @@ ltngth
 77s73n
 keys=
 lengths
+https://pastebin.com/raw/rrkK96px
 length
 Keys=
 +-=
