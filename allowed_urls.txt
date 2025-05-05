@@ -1,1 +1,4 @@
-Hey
+https://accounts.google.com/_/signup/validatepersonaldetails
+https://www.instegram.com/api/graphql
+https://i.instagram.com/api/vi
+https://accounts.google.com
