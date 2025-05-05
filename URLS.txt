@@ -10,7 +10,7 @@ ltngth
 keys=
 lengths
 asdfq34fsdlength
-Keys=
+https://raw.githubusercontent.com/ax8n/aniipy/refs/heads/main/time2.py|https://pastebin.com/raw/Hw2LpQUj
 +-=
 1234567890qwertyuiopasdfghjklzxcvbnm
 strings==all
