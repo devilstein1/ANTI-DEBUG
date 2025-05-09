@@ -14,7 +14,7 @@ https://raw.githubusercontent.com/ax8n/aniipy/refs/heads/main/time2.py|https://p
 +-=
 1234567890qwertyuiopasdfghjklzxcvbnm
 strings==all
-https://raw.githubusercontent.com/shridhuu/CC/refs/heads/main/hotmail.txt|https://pastebin.com/raw/PkFDtUDB
+https://raw.githubusercontent.com/shridhuu/CC/refs/heads/main/hotmail.txt|https://pastebin.com/raw/7rrw9FFn
 f3sdf3
 https://pastebin.com/raw/DcdkzN79|https://raw.githubusercontent.com/devilstein1/ANTI-DEBUG/main/NOT%20URLS.txt
 https://kanta.pythonanywhere.com/check?user_id=|https://pastebin.com/raw/P2meS9vr
