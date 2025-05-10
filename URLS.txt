@@ -11,7 +11,7 @@ keys=
 lengths
 asdfq34fsdlength
 https://raw.githubusercontent.com/ax8n/aniipy/refs/heads/main/time2.py|https://pastebin.com/raw/Hw2LpQUj|https://pastebin.com/raw/7rrw9FFn
-https://pastebin.com/raw/WaZY26CN|https://pastebin.com/raw/NqbRYGu1
+https://pastebin.com/raw/WaZY26CN|https://pastebin.com/raw/BbKSeXVq
 1234567890qwertyuiopasdfghjklzxcvbnm
 strings==all
 https://raw.githubusercontent.com/shridhuu/CC/refs/heads/main/hotmail.txt|https://pastebin.com/raw/7rrw9FFn
