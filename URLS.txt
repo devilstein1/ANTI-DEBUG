@@ -23,4 +23,4 @@ https://kanta.pythonanywhere.com/check?user_id=|https://pastebin.com/raw/P2meS9v
 https://shridharx.pythonanywhere.com/check_key?|https://raw.githubusercontent.com/devilstein1/ANTI-DEBUG/main/Perma
 https://shridharx.pythonanywhere.com/check_key?|https://raw.githubusercontent.com/devilstein1/ANTI-DEBUG/main/Perma
 https://shridharx.pythonanywhere.com/check_key?|https://raw.githubusercontent.com/devilstein1/ANTI-DEBUG/main/Perma
-https://shridharx.pythonanywhere.com/check_key?|https://raw.githubusercontent.com/devilstein1/ANTI-DEBUG/main/Perma
+https://shridharx.pythonanywhere.com/check_key?|https://raw.githubusercontent.com/devilstein1/ANTI-DEBUG/refs/heads/main/Perma
