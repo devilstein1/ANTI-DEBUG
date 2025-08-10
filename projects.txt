@@ -1,0 +1,14 @@
+[
+    {
+        "Title": "Instagram Automation",
+        "Description": "Full Instagram Automation Supporting Mass DM,Report and Profile Boosting",
+        "Language": "Python",
+        "Link": "https://www.youtube.com/watch?v=LYAvb3UAFTM&t=8s"
+    },
+    {
+        "Title": "Obfuscator",
+        "Description": "A python obfuscator with strong ENC over.",
+        "Language": "Python",
+        "Link": "https://www.youtube.com/watch?v=pdlvuEIex74&t=7s"
+    }
+]
