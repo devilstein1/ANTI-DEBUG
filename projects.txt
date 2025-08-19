@@ -1,7 +1,7 @@
 [
     {
         "Title": "Instagram Automation",
-        "Description": "Full Instagram Automation Supporting Mass DM, Report and Profile Boosting.",
+        "Description": "Full Instagram Automation Supporting Mass DM,Report and Profile Boosting",
         "Language": "Python",
         "Link": "https://www.youtube.com/watch?v=LYAvb3UAFTM&t=8s"
     },
@@ -10,5 +10,11 @@
         "Description": "A python obfuscator with strong ENC over.",
         "Language": "Python",
         "Link": "https://www.youtube.com/watch?v=pdlvuEIex74&t=7s"
+    },
+    {
+        "Title": "Instagram Jacking",
+        "Description": "A full desc. explaning copy pasting of all tools.",
+        "Language": "Python",
+        "Link": "https://i.pinimg.com/1200x/6c/5e/d8/6c5ed86973bd0d669cae0a53568bdc70.jpg"
     }
 ]
