@@ -1,0 +1,14 @@
+{
+  "projects": [
+    {
+      "title": "Instagram",
+      "description": "Instagram tool",
+      "language": "Python"
+    },
+    {
+      "title": "Usernames",
+      "description": "Gives you usernames",
+      "language": "React"
+    }
+  ]
+}
